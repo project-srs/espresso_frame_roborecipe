@@ -1,0 +1,21 @@
+version: 0.0
+category: mechanical
+name: kg_74
+
+common:
+  description: grommet
+
+rigit_body:
+  mesh:
+    path: meshes/kg_74.stl
+  view:
+    from: {x: 100, y: 0, z: 100}
+    to: {x: 0, y: 0, z: 2}
+
+product:
+  name: tochigiya kg-74
+  url: https://ec.tochigiya.jp/shop/g/gTM-KG-74/
+distributor:
+  - name: monotaro
+    url: https://www.monotaro.com/p/4262/7786/
+    price: 16

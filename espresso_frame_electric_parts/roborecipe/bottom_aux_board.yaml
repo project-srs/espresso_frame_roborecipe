@@ -1,0 +1,19 @@
+version: 0.0
+category: board
+name: bottom_aux_board
+
+common:
+  description: pcb for led & bumper switch
+
+rigit_body:
+  mesh:
+    path: meshes/akizuki_d_2hole.stl
+  view:
+    from: {x: 250, y: 50, z: 150}
+    to: {x: 0, y: 0, z: 2}
+
+process:
+  data:
+    path: resources/base_motor_board.zip
+  material: FR-4
+  cost: 500

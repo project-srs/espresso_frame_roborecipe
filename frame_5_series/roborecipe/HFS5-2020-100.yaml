@@ -1,0 +1,20 @@
+name: HFS5-2020-100
+category: mechanical
+
+common:
+  description: 5 series frame
+
+rigit_body:
+  mesh:
+    path: meshes/HFS5-2020-100.stl
+  view:
+    from: {x: 300, y: 15, z: 50}
+    to: {x: 0, y: 0, z: 50}
+
+product:
+  name: misumi 5 series alminium frame
+  url: https://jp.misumi-ec.com/vona2/detail/110302683830
+distributor:
+  - name: misumi
+    url: https://jp.misumi-ec.com/vona2/detail/110302683830/?ProductCode=HFS5-2020-100
+    price: 307

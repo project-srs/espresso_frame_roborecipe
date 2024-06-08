@@ -1,0 +1,21 @@
+version: 0.0
+category: electric
+name: D2FW-G072
+
+common:
+  description: micro switch
+
+rigit_body:
+  mesh:
+    path: meshes/D2FW-GX7X.stl
+  view:
+    from: {x: 250, y: 50, z: 150}
+    to: {x: 0, y: 0, z: 2}
+
+product:
+  name: omron D2FW-G072(0.1A, leaf-lever, normaly-open)
+  url: https://www.fa.omron.co.jp/products/family/2698/
+distributor:
+  - name: monotaro
+    url: https://www.monotaro.com/p/4643/1777/
+    price: 499

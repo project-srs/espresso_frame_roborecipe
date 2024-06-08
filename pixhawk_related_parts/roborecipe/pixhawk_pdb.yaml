@@ -1,0 +1,20 @@
+name: pixhawk_pdb
+category: electric
+
+common:
+  description: power distribution board with bumper plate
+
+rigit_body:
+  mesh:
+    path: meshes/pixhawk_pdb.stl
+  view:
+    from: {x: 100, y: 300, z: 100}
+    to: {x: 0, y: 0, z: -2}
+
+product:
+  name: unknown
+  url: unknown
+distributor:
+  - name: aliexpress
+    url: https://ja.aliexpress.com/item/1005003760775879.html
+    price: 2902

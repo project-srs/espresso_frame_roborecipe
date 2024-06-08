@@ -1,0 +1,20 @@
+name: HBLFSN5-4
+category: mechanical
+
+common:
+  description: right angle bracket for 5 series frame
+
+rigit_body:
+  mesh:
+    path: meshes/HBLFSN5-4.stl
+  view:
+    from: {x: 150, y: 100, z: 50}
+    to: {x: 0, y: 0, z: -2}
+
+product:
+  name: misumi 5 series bracket
+  url: https://jp.misumi-ec.com/vona2/detail/110300437260
+distributor:
+  - name: misumi
+    url: https://jp.misumi-ec.com/vona2/detail/110300437260/?HissuCode=HBLFSN5-4
+    price: 70

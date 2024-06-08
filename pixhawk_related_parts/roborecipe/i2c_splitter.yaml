@@ -1,0 +1,20 @@
+name: i2c_splitter
+category: electric
+
+common:
+  description: i2c bus splitter
+
+rigit_body:
+  mesh:
+    path: meshes/i2c_splitter.stl
+  view:
+    from: {x: 50, y: 100, z: 100}
+    to: {x: 0, y: 0, z: 2}
+
+product:
+  name: unknown
+  url: unknown
+distributor:
+  - name: amazon
+    url: https://www.amazon.co.jp/dp/B00LAWOUE4
+    price: 639

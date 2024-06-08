@@ -1,0 +1,20 @@
+name: pan_6_p2
+category: screw
+
+common:
+  description: assembled screw
+
+rigit_body:
+  mesh:
+    path: meshes/pan_6_p2.stl
+  view:
+    from: {x: 100, y: 0, z: 50}
+    to: {x: 0, y: 0, z: -2}
+
+product:
+  name: JIS B1111
+  url: https://kikakurui.com/b1/B1111-2017-01.html
+distributor:
+  - name: hirosugi
+    url: https://www.hirosugi-net.co.jp/shop/g/g36677/
+    price: 6.0

@@ -1,0 +1,20 @@
+name: ck-100
+category: screw
+
+common:
+  description: right angle screw blacket
+
+rigit_body:
+  mesh:
+    path: meshes/ck-100.stl
+  view:
+    from: {x: 80, y: 80, z: 40}
+    to: {x: 0, y: 0, z: 5}
+
+product:
+  name: takachi ck-100
+  url: https://www.takachi-el.co.jp/products/CK
+distributor:
+  - name: monotaro
+    url: https://www.monotaro.com/p/8835/5443/
+    price: 2.7

@@ -1,0 +1,20 @@
+name: gps_module
+category: electric
+
+common:
+  description: M8N gps module with compass
+
+rigit_body:
+  mesh:
+    path: meshes/gps_module.stl
+  view:
+    from: {x: 200, y: 50, z: 100}
+    to: {x: 0, y: 0, z: -2}
+
+product:
+  name: JIS B1111
+  url: https://kikakurui.com/b1/B1111-2017-01.html
+distributor:
+  - name: aliexpress
+    url: https://ja.aliexpress.com/item/1005001971960895.html
+    price: 2094.0

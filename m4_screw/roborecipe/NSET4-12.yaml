@@ -1,0 +1,20 @@
+name: NSET4-12
+category: screw
+
+common:
+  description: assembled screw
+
+rigit_body:
+  mesh:
+    path: meshes/NSET4-12.stl
+  view:
+    from: {x: 100, y: 0, z: 50}
+    to: {x: 0, y: 0, z: -2}
+
+product:
+  name: misumi
+  url: https://jp.misumi-ec.com/pdf/fa/2018/p2_263_001_202106.pdf
+distributor:
+  - name: misumi
+    url: https://jp.misumi-ec.com/vona2/detail/110300240740/?HissuCode=NSET4-12
+    price: 28

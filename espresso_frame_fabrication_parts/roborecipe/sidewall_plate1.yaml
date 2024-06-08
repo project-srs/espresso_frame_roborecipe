@@ -1,0 +1,19 @@
+version: 0.0
+category: laser_cut
+name: sidewall_plate1
+
+common:
+  description: front side wall
+
+rigit_body:
+  mesh:
+    path: meshes/sidewall_plate1.stl
+  view:
+    from: {x: 400, y: 50, z: 200}
+    to: {x: 0, y: 0, z: 2}
+
+process:
+  data:
+    path: resources/sidewall_plate1.dxf
+  material: mdf_4mm
+  cost: 200

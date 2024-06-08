@@ -1,0 +1,20 @@
+name: no_2825_gear_motor
+category: electric
+
+common:
+  description: 70:1 with encoder
+
+rigit_body:
+  mesh:
+    path: meshes/no_2825_gear_motor.stl
+  view:
+    from: {x: 100, y: 300, z: 20}
+    to: {x: -40, y: 0, z: 0}
+
+product:
+  name: 70:1 Metal Gearmotor 37Dx70L mm 12V with 64 CPR Encoder (Spur Pinion)
+  url: https://www.pololu.com/product/2825
+distributor:
+  - name: tme
+    url: https://www.tme.com/jp/ja/details/pololu-2825
+    price: 10000

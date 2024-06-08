@@ -1,0 +1,20 @@
+name: buzzer
+category: electric
+
+common:
+  description: set part
+
+rigit_body:
+  mesh:
+    path: meshes/buzzer.stl
+  view:
+    from: {x: 120, y: 0, z: 100}
+    to: {x: 0, y: 0, z: -2}
+
+product:
+  name: 3DR Pixhawk 1 Flight Controller
+  url: https://docs.px4.io/main/en/flight_controller/pixhawk.html
+distributor:
+  - name: amazon
+    url: https://www.amazon.co.jp/dp/B01FNNNAK0
+    price: 0

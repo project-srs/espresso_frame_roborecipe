@@ -1,0 +1,21 @@
+version: 0.0
+category: electric
+name: ar22q2r-b
+
+common:
+  description: set part
+
+rigit_body:
+  mesh:
+    path: meshes/ar22q2r-b.stl
+  view:
+    from: {x: 250, y: 50, z: 150}
+    to: {x: 0, y: 0, z: 2}
+
+product:
+  name: fuji electric AR22Q2R-02R (normaly close x2)
+  url: https://www.fujielectric.co.jp/products/command_switch/selection_table/ar22q2r/
+distributor:
+  - name: monotaro
+    url: https://www.monotaro.com/p/0850/9261/
+    price: 0

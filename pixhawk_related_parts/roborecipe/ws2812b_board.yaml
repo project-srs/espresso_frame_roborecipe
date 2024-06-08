@@ -1,0 +1,21 @@
+version: 0.0
+category: electric
+name: ws2812b_board
+
+common:
+  description: led plate
+
+rigit_body:
+  mesh:
+    path: meshes/ws2812b_board.stl
+  view:
+    from: {x: 250, y: 50, z: 150}
+    to: {x: 0, y: 0, z: 2}
+
+product:
+  name: AE-WS2812B-STICK8
+  url: https://akizukidenshi.com/catalog/g/gM-14307/
+distributor:
+  - name: akizuki
+    url: https://akizukidenshi.com/catalog/g/gM-14307/
+    price: 500

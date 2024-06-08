@@ -1,0 +1,21 @@
+version: 0.0
+category: electric
+name: ydlidar_adapter
+
+common:
+  description: interface adapter
+
+rigit_body:
+  mesh:
+    path: meshes/ydlidar_adapter.stl
+  view:
+    from: {x: 250, y: 50, z: 150}
+    to: {x: 0, y: 0, z: 2}
+
+product:
+  name: JIS B1111
+  url: https://kikakurui.com/b1/B1111-2017-01.html
+distributor:
+  - name: monotaro
+    url: TBD
+    price: 0

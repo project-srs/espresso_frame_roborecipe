@@ -1,0 +1,20 @@
+name: low_head_8
+category: screw
+
+common:
+  description: standard part
+
+rigit_body:
+  mesh:
+    path: meshes/low_head_8.stl
+  view:
+    from: {x: 100, y: 0, z: 50}
+    to: {x: 0, y: 0, z: -2}
+
+product:
+  name: mototaro
+  url: https://www.monotaro.com/p/4174/6591/
+distributor:
+  - name: monotaro
+    url: https://www.monotaro.com/p/4174/6591/
+    price: 20.1

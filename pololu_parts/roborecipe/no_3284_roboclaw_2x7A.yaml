@@ -1,0 +1,20 @@
+name: no_3284_roboclaw_2x7A
+category: electric
+
+common:
+  description: dual output motor driver
+
+rigit_body:
+  mesh:
+    path: meshes/no_3284_roboclaw_2x7A.stl
+  view:
+    from: {x: 100, y: 250, z: 150}
+    to: {x: 0, y: 0, z: 0}
+
+product:
+  name: RoboClaw 2x7A Motor Controller (V5C)
+  url: https://www.pololu.com/product/3284
+distributor:
+  - name: roboshop
+    url: https://jp.robotshop.com/products/roboclaw-2x7a-6-34vdc-regenerative-motor-controller
+    price: 12746

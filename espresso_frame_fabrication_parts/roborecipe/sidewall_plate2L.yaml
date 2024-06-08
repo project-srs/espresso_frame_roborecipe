@@ -1,0 +1,19 @@
+version: 0.0
+category: laser_cut
+name: sidewall_plate2L
+
+common:
+  description: left side wall
+
+rigit_body:
+  mesh:
+    path: meshes/sidewall_plate2L.stl
+  view:
+    from: {x: 50, y: 250, z: 150}
+    to: {x: 0, y: 0, z: 25}
+
+process:
+  data:
+    path: resources/sidewall_plate2L.dxf
+  material: mdf_4mm
+  cost: 200

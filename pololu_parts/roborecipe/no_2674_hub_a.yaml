@@ -1,0 +1,20 @@
+name: no_2674_hub_a
+category: mechanical
+
+common:
+  description: wheel hab
+
+rigit_body:
+  mesh:
+    path: meshes/no_2674_hub_a.stl
+  view:
+    from: {x: 100, y: 0, z: 100}
+    to: {x: 0, y: 0, z: -2}
+
+product:
+  name: Aluminum Scooter Wheel Adapter for 6mm Shaft
+  url: https://www.pololu.com/product/2674
+distributor:
+  - name: tme
+    url: https://www.tme.com/jp/ja/details/pololu-2674
+    price: 900

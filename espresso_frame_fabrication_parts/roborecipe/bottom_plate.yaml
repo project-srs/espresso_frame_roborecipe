@@ -1,0 +1,19 @@
+version: 0.0
+category: laser_cut
+name: bottom_plate
+
+common:
+  description: electric parts base plate
+
+rigit_body:
+  mesh:
+    path: meshes/bottom_plate.stl
+  view:
+    from: {x: 500, y: 100, z: 400}
+    to: {x: 0, y: 0, z: 2}
+
+process:
+  data:
+    path: resources/bottom_plate.dxf
+  material: mdf_5.5mm
+  cost: 500

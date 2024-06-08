@@ -1,0 +1,21 @@
+version: 0.0
+category: electric
+name: intel_nuc
+
+common:
+  description: x86 computer module
+
+rigit_body:
+  mesh:
+    path: meshes/intel_nuc.stl
+  view:
+    from: {x: 250, y: 50, z: 150}
+    to: {x: 0, y: 0, z: 2}
+
+product:
+  name: intel NUC
+  url: https://www.intel.co.jp/content/www/jp/ja/products/details/nuc.html
+distributor:
+  - name: unknown
+    url: unknown
+    price: 50000

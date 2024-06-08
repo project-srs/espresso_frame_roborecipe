@@ -1,0 +1,19 @@
+version: 0.0
+category: laser_cut
+name: push_bumper_b
+
+common:
+  description: bumper plate
+
+rigit_body:
+  mesh:
+    path: meshes/push_bumper_b.stl
+  view:
+    from: {x: 450, y: 200, z: 150}
+    to: {x: 150, y: 0, z: 2}
+
+process:
+  data:
+    path: resources/push_bumper_a.dxf
+  material: mdf_4mm
+  cost: 200

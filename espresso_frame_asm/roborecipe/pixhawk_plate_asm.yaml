@@ -1,0 +1,28 @@
+version: 0.0
+name: pixhawk_plate_asm
+category: assembly
+
+common:
+  description: sub-assembly of pixhawk
+
+procedure_list:
+  - type: attach
+    view_list: 
+      - {from: {x: 250, y: 100, z: 100}, to: {x: 0, y: 0, z: 0}, angle: 30}
+    component_list:
+      - {pkg: pixhawk_related_parts, type: pixhawk_pdb, origin: {x: 0, y: 0, z: 0, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 0}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: 250, y: 100, z: 100}, to: {x: 0, y: 0, z: 0}, angle: 30}
+    component_list:
+      - {pkg: pixhawk_related_parts, type: pixhawk1, origin: {x: 0, y: 0, z: 1.5, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 20}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: 250, y: 100, z: 100}, to: {x: 0, y: 0, z: 0}, angle: 30}
+    component_list:
+      - {pkg: grommet_parts, type: kg_74, origin: {x: 30, y: 30, z: 0.5, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 15}}
+      - {pkg: grommet_parts, type: kg_74, origin: {x: 30, y: -30, z: 0.5, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 15}}
+      - {pkg: grommet_parts, type: kg_74, origin: {x: -30, y: 30, z: 0.5, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 15}}
+      - {pkg: grommet_parts, type: kg_74, origin: {x: -30, y: -30, z: 0.5, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 15}}

@@ -1,0 +1,21 @@
+version: 0.0
+category: mechanical
+name: susaj-ts4-75u
+
+common:
+  description: spring caster
+
+rigit_body:
+  mesh:
+    path: meshes/susaj-ts4-75u.stl
+  view:
+    from: {x: 200, y: 50, z: 100}
+    to: {x: 0, y: 0, z: -40}
+
+product:
+  name: sisiku spring caster
+  url: https://www.sisiku.com/castors/susaj-ts4-75u
+distributor:
+  - name: misumi
+    url: https://jp.misumi-ec.com/vona2/detail/221000601530/
+    price: 4999

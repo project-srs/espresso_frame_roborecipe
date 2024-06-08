@@ -1,0 +1,21 @@
+version: 0.0
+category: electric
+name: gp2y0a21yk0f
+
+common:
+  description: psd range sensor
+
+rigit_body:
+  mesh:
+    path: meshes/gp2y0a21yk0f.stl
+  view:
+    from: {x: 250, y: 50, z: 150}
+    to: {x: 0, y: 0, z: 2}
+
+product:
+  name: sharp range sensor
+  url: https://jp.sharp/products/device/lineup/selection/opto/haca/diagram.html
+distributor:
+  - name: akizuki
+    url: https://akizukidenshi.com/catalog/g/gI-02551/
+    price: 550

@@ -1,0 +1,19 @@
+version: 0.0
+category: board
+name: base_motor_board
+
+common:
+  description: pcb for motor connection on base_plate
+
+rigit_body:
+  mesh:
+    path: meshes/akizuki_c.stl
+  view:
+    from: {x: 250, y: 50, z: 150}
+    to: {x: 0, y: 0, z: 2}
+
+process:
+  data:
+    path: resources/base_motor_board.zip
+  material: FR-4
+  cost: 500

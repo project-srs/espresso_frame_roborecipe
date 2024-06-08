@@ -1,0 +1,20 @@
+name: us42v2
+category: electric
+
+common:
+  description: Ultra Sonic Range Finder
+
+rigit_body:
+  mesh:
+    path: meshes/us42v2.stl
+  view:
+    from: {x: 100, y: 0, z: 120}
+    to: {x: 0, y: 0, z: -2}
+
+product:
+  name: unknown
+  url: unknown
+distributor:
+  - name: aliexpress
+    url: https://ja.aliexpress.com/item/4000459333991.html
+    price: 884

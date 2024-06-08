@@ -1,0 +1,195 @@
+version: 0.0
+name: frame_asm
+category: assembly
+
+common:
+  description: misumi frame assembly
+  image_list: [resources/frame_asm.jpg]
+
+procedure_list:
+  - type: attach
+    view_list: 
+      - {from: {x: 800, y: 300, z: 300}, to: {x: 0, y: 0, z: 0}, angle: 30}
+    component_list:
+      - {pkg: frame_5_series, type: HFS5-2020-280, origin: {x: -110, y: 140, z: 10, roll: 90, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 0}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: 800, y: 300, z: 300}, to: {x: 0, y: 0, z: 0}, angle: 30}
+    component_list:
+      - {pkg: frame_5_series, type: SHNTP5-4, origin: {x: -110, y: 102, z: 20, roll: 0, pitch: 0, yaw: -90}, move: {x: 0, y: 0, z: 20}}
+      - {pkg: frame_5_series, type: SHNTP5-4, origin: {x: -110, y: -102, z: 20, roll: 0, pitch: 0, yaw: -90}, move: {x: 0, y: 0, z: 20}}
+      - {pkg: frame_5_series, type: HBLFSN5-4, origin: {x: -110, y: 120, z: 20, roll: 0, pitch: 0, yaw: -90}, move: {x: 0, y: 0, z: 40}}
+      - {pkg: frame_5_series, type: HBLFSN5-4, origin: {x: -110, y: -120, z: 20, roll: 0, pitch: 0, yaw: 90}, move: {x: 0, y: 0, z: 40}}
+      - {pkg: m4_screw, type: NSET4-12, origin: {x: -110, y: 102, z: 24.5, roll: 0, pitch: 0, yaw: -90}, move: {x: 0, y: 0, z: 70}}
+      - {pkg: m4_screw, type: NSET4-12, origin: {x: -110, y: -102, z: 24.5, roll: 0, pitch: 0, yaw: -90}, move: {x: 0, y: 0, z: 70}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: 800, y: 300, z: 300}, to: {x: 0, y: 0, z: 0}, angle: 30}
+    component_list:
+      - {pkg: frame_5_series, type: HFS5-2020-80, origin: {x: -110, y: 130, z: 20, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 40, z: 0}}
+      - {pkg: frame_5_series, type: SHNTP5-4, origin: {x: -110, y: 120, z: 38, roll: 0, pitch: 90, yaw: -90}, move: {x: 0, y: 20, z: 0}}
+      - {pkg: m4_screw, type: NSET4-12, origin: {x: -110, y: 115.5, z: 38, roll: 0, pitch: 90, yaw: -90}, move: {x: 0, y: -30, z: 0}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: 800, y: 300, z: 300}, to: {x: 0, y: 0, z: 0}, angle: 30}
+    component_list:
+      - {pkg: frame_5_series, type: HFS5-2020-80, origin: {x: -110, y: -130, z: 20, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: -40, z: 0}}
+      - {pkg: frame_5_series, type: SHNTP5-4, origin: {x: -110, y: -120, z: 38, roll: 0, pitch: 90, yaw: 90}, move: {x: 0, y: -20, z: 0}}
+      - {pkg: m4_screw, type: NSET4-12, origin: {x: -110, y: -115.5, z: 38, roll: 0, pitch: 90, yaw: 90}, move: {x: 0, y: 30, z: 0}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: 800, y: 300, z: 300}, to: {x: 0, y: 0, z: 0}, angle: 30}
+    component_list:
+      - {pkg: frame_5_series, type: SHNTP5-4, origin: {x: -110, y: 120, z: 82, roll: 0, pitch: 90, yaw: -90}, move: {x: 0, y: -20, z: 0}}
+      - {pkg: frame_5_series, type: HBLFSN5-4, origin: {x: -110, y: 120, z: 100, roll: 0, pitch: 90, yaw: -90}, move: {x: 0, y: -40, z: 0}}
+      - {pkg: m4_screw, type: NSET4-12, origin: {x: -110, y: 115.5, z: 82, roll: 0, pitch: 90, yaw: -90}, move: {x: 0, y: -70, z: 0}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: 800, y: 300, z: 300}, to: {x: 0, y: 0, z: 0}, angle: 30}
+    component_list:
+      - {pkg: frame_5_series, type: SHNTP5-4, origin: {x: -110, y: -120, z: 82, roll: 0, pitch: 90, yaw: 90}, move: {x: 0, y: 20, z: 0}}
+      - {pkg: frame_5_series, type: HBLFSN5-4, origin: {x: -110, y: -120, z: 100, roll: 0, pitch: 90, yaw: 90}, move: {x: 0, y: 40, z: 0}}
+      - {pkg: m4_screw, type: NSET4-12, origin: {x: -110, y: -115.5, z: 82, roll: 0, pitch: 90, yaw: 90}, move: {x: 0, y: 70, z: 0}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: 800, y: 300, z: 300}, to: {x: 0, y: 0, z: 0}, angle: 30}
+    component_list:
+      - {pkg: frame_5_series, type: SHNTP5-4, origin: {x: -110, y: 102, z: 100, roll: 180, pitch: 0, yaw: -90}, move: {x: 0, y: 0, z: 20}}
+      - {pkg: frame_5_series, type: SHNTP5-4, origin: {x: -110, y: -102, z: 100, roll: 180, pitch: 0, yaw: 90}, move: {x: 0, y: 0, z: 20}}
+      - {pkg: frame_5_series, type: HFS5-2020-280, origin: {x: -110, y: 140, z: 110, roll: 90, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 40}}
+      - {pkg: m4_screw, type: NSET4-12, origin: {x: -110, y: 102, z: 95.5, roll: 180, pitch: 0, yaw: 90}, move: {x: 0, y: 0, z: -25}}
+      - {pkg: m4_screw, type: NSET4-12, origin: {x: -110, y: -102, z: 95.5, roll: 180, pitch: 0, yaw: 90}, move: {x: 0, y: 0, z: -25}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: 800, y: 300, z: 300}, to: {x: 0, y: 0, z: 0}, angle: 30}
+    component_list:
+      - {pkg: frame_5_series, type: SHNTP5-4, origin: {x: -100, y: 130, z: 38, roll: 0, pitch: 90, yaw: 0}, move: {x: 20, y: 0, z: 0}}
+      - {pkg: frame_5_series, type: SHNTP5-4, origin: {x: -100, y: -130, z: 38, roll: 0, pitch: 90, yaw: 0}, move: {x: 20, y: 0, z: 0}}
+      - {pkg: frame_5_series, type: HBLFSN5-4, origin: {x: -100, y: 130, z: 20, roll: 0, pitch: 0, yaw: 0}, move: {x: 40, y: 0, z: 0}}
+      - {pkg: frame_5_series, type: HBLFSN5-4, origin: {x: -100, y: -130, z: 20, roll: 0, pitch: 0, yaw: 0}, move: {x: 40, y: 0, z: 0}}
+      - {pkg: m4_screw, type: NSET4-12, origin: {x: -100, y: 130, z: 38, roll: 0, pitch: 90, yaw: 0}, move: {x: 70, y: 0, z: 0}}
+      - {pkg: m4_screw, type: NSET4-12, origin: {x: -100, y: -130, z: 38, roll: 0, pitch: 90, yaw: 0}, move: {x: 70, y: 0, z: 0}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: 800, y: 300, z: 300}, to: {x: 0, y: 0, z: 0}, angle: 30}
+    component_list:
+      - {pkg: frame_5_series, type: SHNTP5-4, origin: {x: -82, y: 130, z: 20, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -20}}
+      - {pkg: frame_5_series, type: SHNTP5-4, origin: {x: -82, y: -130, z: 20, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -20}}
+      - {pkg: frame_5_series, type: HFS5-2020-200, origin: {x: -100, y: 130, z: 10, roll: 0, pitch: 90, yaw: 0}, move: {x: 0, y: 0, z: -40}}
+      - {pkg: frame_5_series, type: HFS5-2020-200, origin: {x: -100, y: -130, z: 10, roll: 0, pitch: 90, yaw: 0}, move: {x: 0, y: 0, z: -40}}
+      - {pkg: m4_screw, type: NSET4-12, origin: {x: -82, y: 130, z: 24.5, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 30}}
+      - {pkg: m4_screw, type: NSET4-12, origin: {x: -82, y: -130, z: 24.5, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 30}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: 800, y: 300, z: 300}, to: {x: 0, y: 0, z: 0}, angle: 30}
+    component_list:
+      - {pkg: frame_5_series, type: SHNTP5-4, origin: {x: -100, y: 102, z: 110, roll: 90, pitch: 0, yaw: -90}, move: {x: 20, y: 0, z: 0}}
+      - {pkg: frame_5_series, type: SHNTP5-4, origin: {x: -100, y: -102, z: 110, roll: 90, pitch: 0, yaw: 90}, move: {x: 20, y: 0, z: 0}}
+      - {pkg: frame_5_series, type: HBLFSN5-4, origin: {x: -100, y: 120, z: 110, roll: -90, pitch: 0, yaw: -90}, move: {x: 40, y: 0, z: 0}}
+      - {pkg: frame_5_series, type: HBLFSN5-4, origin: {x: -100, y: -120, z: 110, roll: 90, pitch: 0, yaw: 90}, move: {x: 40, y: 0, z: 0}}
+      - {pkg: m4_screw, type: NSET4-12, origin: {x: -95.5, y: 102, z: 110, roll: 0, pitch: 90, yaw: 0}, move: {x: 70, y: 0, z: 0}}
+      - {pkg: m4_screw, type: NSET4-12, origin: {x: -95.5, y: -102, z: 110, roll: 0, pitch: 90, yaw: 0}, move: {x: 70, y: 0, z: 0}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: 800, y: 300, z: 300}, to: {x: 0, y: 0, z: 0}, angle: 30}
+    component_list:
+      - {pkg: frame_5_series, type: SHNTP5-4, origin: {x: -92, y: 120, z: 110, roll: 90, pitch: 0, yaw: 0}, move: {x: 0, y: 20, z: 0}}
+      - {pkg: frame_5_series, type: SHNTP5-4, origin: {x: -92, y: -120, z: 110, roll: 90, pitch: 0, yaw: 0}, move: {x: 0, y: -20, z: 0}}
+      - {pkg: frame_5_series, type: HFS5-2020-200, origin: {x: -100, y: 130, z: 110, roll: 0, pitch: 90, yaw: 0}, move: {x: 0, y: 40, z: 0}}
+      - {pkg: frame_5_series, type: HFS5-2020-200, origin: {x: -100, y: -130, z: 110, roll: 0, pitch: 90, yaw: 0}, move: {x: 0, y: -40, z: 0}}
+      - {pkg: m4_screw, type: NSET4-12, origin: {x: -95.5, y: 102, z: 110, roll: 90, pitch: 0, yaw: 0}, move: {x: 0, y: -30, z: 0}}
+      - {pkg: m4_screw, type: NSET4-12, origin: {x: -95.5, y: -102, z: 110, roll: -90, pitch: 0, yaw: 0}, move: {x: 0, y: 30, z: 0}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: 800, y: 300, z: 300}, to: {x: 0, y: 0, z: 0}, angle: 30}
+    component_list:
+      - {pkg: frame_5_series, type: SHNTP5-4, origin: {x: 82, y: 130, z: 20, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 20}}
+      - {pkg: frame_5_series, type: SHNTP5-4, origin: {x: 82, y: 130, z: 20, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 20}}
+      - {pkg: frame_5_series, type: HBLFSN5-4, origin: {x: 100, y: 130, z: 20, roll: 0, pitch: 0, yaw: 180}, move: {x: 0, y: 0, z: 40}}
+      - {pkg: frame_5_series, type: HBLFSN5-4, origin: {x: 100, y: -130, z: 20, roll: 0, pitch: 0, yaw: 180}, move: {x: 0, y: 0, z: 40}}
+      - {pkg: m4_screw, type: NSET4-12, origin: {x: 82, y: 130, z: 24.5, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 70}}
+      - {pkg: m4_screw, type: NSET4-12, origin: {x: 82, y: -130, z: 24.5, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 70}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: 800, y: 300, z: 300}, to: {x: 0, y: 0, z: 0}, angle: 30}
+    component_list:
+      - {pkg: frame_5_series, type: SHNTP5-4, origin: {x: 82, y: 130, z: 100, roll: 180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -20}}
+      - {pkg: frame_5_series, type: SHNTP5-4, origin: {x: 82, y: 130, z: 100, roll: 180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -20}}
+      - {pkg: frame_5_series, type: HBLFSN5-4, origin: {x: 100, y: 130, z: 100, roll: 0, pitch: 180, yaw: 0}, move: {x: 0, y: 0, z: -40}}
+      - {pkg: frame_5_series, type: HBLFSN5-4, origin: {x: 100, y: -130, z: 100, roll: 0, pitch: 180, yaw: 0}, move: {x: 0, y: 0, z: -40}}
+      - {pkg: m4_screw, type: NSET4-12, origin: {x: 82, y: 130, z: 95.5, roll: 180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -70}}
+      - {pkg: m4_screw, type: NSET4-12, origin: {x: 82, y: -130, z: 95.5, roll: 180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -70}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: 800, y: 300, z: 300}, to: {x: 0, y: 0, z: 0}, angle: 30}
+    component_list:
+      - {pkg: frame_5_series, type: SHNTP5-4, origin: {x: 100, y: 130, z: 82, roll: 0, pitch: -90, yaw: 0}, move: {x: 20, y: 0, z: 0}}
+      - {pkg: frame_5_series, type: SHNTP5-4, origin: {x: 100, y: -130, z: 82, roll: 0, pitch: -90, yaw: 0}, move: {x: 20, y: 0, z: 0}}
+      - {pkg: frame_5_series, type: SHNTP5-4, origin: {x: 100, y: 130, z: 38, roll: 0, pitch: -90, yaw: 0}, move: {x: 20, y: 0, z: 0}}
+      - {pkg: frame_5_series, type: SHNTP5-4, origin: {x: 100, y: -130, z: 38, roll: 0, pitch: -90, yaw: 0}, move: {x: 20, y: 0, z: 0}}
+      - {pkg: m4_screw, type: NSET4-12, origin: {x: 95.5, y: 130, z: 82, roll: 0, pitch: -90, yaw: 0}, move: {x: -20, y: 0, z: 0}}
+      - {pkg: m4_screw, type: NSET4-12, origin: {x: 95.5, y: -130, z: 82, roll: 0, pitch: -90, yaw: 0}, move: {x: -20, y: 0, z: 0}}
+      - {pkg: m4_screw, type: NSET4-12, origin: {x: 95.5, y: 130, z: 38, roll: 0, pitch: -90, yaw: 0}, move: {x: -20, y: 0, z: 0}}
+      - {pkg: m4_screw, type: NSET4-12, origin: {x: 95.5, y: -130, z: 38, roll: 0, pitch: -90, yaw: 0}, move: {x: -20, y: 0, z: 0}}
+      - {pkg: frame_5_series, type: HFS5-2020-100, origin: {x: 110, y: 130, z: 0, roll: 0, pitch: 0, yaw: 0}, move: {x: 40, y: 0, z: 0}}
+      - {pkg: frame_5_series, type: HFS5-2020-100, origin: {x: 110, y: -130, z: 0, roll: 0, pitch: 0, yaw: 0}, move: {x: 40, y: 0, z: 0}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: 800, y: 300, z: 300}, to: {x: 0, y: 0, z: 0}, angle: 30}
+    component_list:
+      - {pkg: frame_5_series, type: SHNTP5-4, origin: {x: 82, y: 120, z: 110, roll: 90, pitch: 0, yaw: 0}, move: {x: 0, y: -20, z: 0}}
+      - {pkg: frame_5_series, type: SHNTP5-4, origin: {x: 82, y: -120, z: 110, roll: -90, pitch: 0, yaw: 0}, move: {x: 0, y: 20, z: 0}}
+      - {pkg: frame_5_series, type: HBLFSN5-4, origin: {x: 100, y: 120, z: 110, roll: -90, pitch: 0, yaw: 180}, move: {x: 0, y: -40, z: 0}}
+      - {pkg: frame_5_series, type: HBLFSN5-4, origin: {x: 100, y: -120, z: 110, roll: 90, pitch: 0, yaw: 180}, move: {x: 0, y: 40, z: 0}}
+      - {pkg: m4_screw, type: NSET4-12, origin: {x: 82, y: 115.5, z: 110, roll: 90, pitch: 0, yaw: 0}, move: {x: 0, y: -70, z: 0}}
+      - {pkg: m4_screw, type: NSET4-12, origin: {x: 82, y: -115.5, z: 110, roll: -90, pitch: 0, yaw: 0}, move: {x: 0, y: 70, z: 0}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: 800, y: 300, z: 300}, to: {x: 0, y: 0, z: 0}, angle: 30}
+    component_list:
+      - {pkg: frame_5_series, type: SHNTP5-4, origin: {x: 100, y: 102, z: 110, roll: -90, pitch: 0, yaw: -90}, move: {x: 20, y: 0, z: 0}}
+      - {pkg: frame_5_series, type: SHNTP5-4, origin: {x: 100, y: -102, z: 110, roll: 90, pitch: 0, yaw: 90}, move: {x: 20, y: 0, z: 0}}
+      - {pkg: m4_screw, type: NSET4-12, origin: {x: 95.5, y: 102, z: 110, roll: 0, pitch: -90, yaw: 0}, move: {x: -20, y: 0, z: 0}}
+      - {pkg: m4_screw, type: NSET4-12, origin: {x: 95.5, y: -102, z: 110, roll: 0, pitch: -90, yaw: 0}, move: {x: -20, y: 0, z: 0}}
+      - {pkg: frame_5_series, type: HFS5-2020-280, origin: {x: 110, y: 140, z: 110, roll: 90, pitch: 0, yaw: 0}, move: {x: 40, y: 0, z: 0}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: -800, y: 300, z: 300}, to: {x: 0, y: 0, z: 0}, angle: 30}
+    component_list:
+      - {pkg: frame_5_series, type: SHNTP5-4, origin: {x: -120, y: -28, z: 10, roll: 90, pitch: 0, yaw: -90}, move: {x: -20, y: 0, z: 0}}
+      - {pkg: frame_5_series, type: HBLFSN5-4, origin: {x: -120, y: -10, z: 10, roll: 90, pitch: 0, yaw: -90}, move: {x: -40, y: 0, z: 0}}
+      - {pkg: m4_screw, type: NSET4-12, origin: {x: -124.5, y: -28, z: 10, roll: 0, pitch: -90, yaw: 0}, move: {x: -70, y: 0, z: 0}}
+
+  - type: attach
+    view_list:
+      - {from: {x: -800, y: 300, z: 300}, to: {x: 0, y: 0, z: 0}, angle: 30}
+    component_list:
+      - {pkg: frame_5_series, type: SHNTP5-4, origin: {x: -138, y: -10, z: 10, roll: 90, pitch: 0, yaw: 0}, move: {x: 0, y: 10, z: 0}}
+      - {pkg: m4_screw, type: NSET4-12, origin: {x: -138, y: -14.5, z: 10, roll: 90, pitch: 0, yaw: 0}, move: {x: 0, y: -20, z: 0}}
+      - {pkg: frame_5_series, type: HFS5-2020-80, origin: {x: -120, y: 0, z: 10, roll: 0, pitch: -90, yaw: 0}, move: {x: 0, y: 40, z: 0}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: -800, y: 300, z: -300}, to: {x: 0, y: 0, z: 0}, angle: 30}
+    component_list:
+      - {pkg: frame_5_series, type: SHNTP5-4, origin: {x: 70, y: 130, z: 0, roll: 180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -30}}
+      - {pkg: frame_5_series, type: SHNTP5-4, origin: {x: 70, y: -130, z: 0, roll: 180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -30}}
+      - {pkg: frame_5_series, type: SHNTP5-4, origin: {x: -90, y: 130, z: 0, roll: 180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -30}}
+      - {pkg: frame_5_series, type: SHNTP5-4, origin: {x: -90, y: -130, z: 0, roll: 180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -30}}
+      - {pkg: frame_5_series, type: SHNTP5-4, origin: {x: -160, y: -0, z: 0, roll: 180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -30}}

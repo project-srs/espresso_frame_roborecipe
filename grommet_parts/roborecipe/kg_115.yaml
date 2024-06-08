@@ -1,0 +1,21 @@
+version: 0.0
+category: mechanical
+name: kg_115
+
+common:
+  description: grommet
+
+rigit_body:
+  mesh:
+    path: meshes/kg_115.stl
+  view:
+    from: {x: 100, y: 0, z: 100}
+    to: {x: 0, y: 0, z: 2}
+
+product:
+  name: tochigiya kg-115
+  url: https://ec.tochigiya.jp/shop/g/gTM-KG-115/
+distributor:
+  - name: monotaro
+    url: https://www.monotaro.com/p/4262/7752/
+    price: 16

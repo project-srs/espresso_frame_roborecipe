@@ -1,0 +1,21 @@
+version: 0.0
+category: electric
+name: ydlidar_x4
+
+common:
+  description: 2d lidar
+
+rigit_body:
+  mesh:
+    path: meshes/ydlidar_x4.stl
+  view:
+    from: {x: 250, y: 50, z: 150}
+    to: {x: 0, y: 0, z: 2}
+
+product:
+  name: YDLIDAR X4
+  url: https://www.ydlidar.com/products/view/5.html
+distributor:
+  - name: akizuki
+    url: https://akizukidenshi.com/catalog/g/gM-17303/
+    price: 13940

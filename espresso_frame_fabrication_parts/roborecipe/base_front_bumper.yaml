@@ -1,0 +1,19 @@
+version: 0.0
+category: laser_cut
+name: base_front_bumper
+
+common:
+  description: front bumper on base_plate 
+
+rigit_body:
+  mesh:
+    path: meshes/base_front_bumper.stl
+  view:
+    from: {x: 450, y: 200, z: 250}
+    to: {x: 100, y: 0, z: 2}
+
+process:
+  data:
+    path: resources/base_front_bumper.dxf
+  material: mdf_4mm
+  cost: 200

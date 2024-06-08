@@ -1,0 +1,21 @@
+version: 0.0
+category: electric
+name: makita_battery_holder
+
+common:
+  description: holder for makita 18V battery
+
+rigit_body:
+  mesh:
+    path: meshes/makita_battery_holder.stl
+  view:
+    from: {x: 250, y: 50, z: 150}
+    to: {x: 0, y: 0, z: 2}
+
+product:
+  name: unknown
+  url: unknown
+distributor:
+  - name: amazon
+    url: https://www.amazon.co.jp/dp/B08X73Z7RP
+    price: 1787

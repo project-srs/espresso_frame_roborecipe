@@ -1,0 +1,20 @@
+name: APBS-06-15
+category: screw
+
+common:
+  description: assembled screw
+
+rigit_body:
+  mesh:
+    path: meshes/APBS-06-15.stl
+  view:
+    from: {x: 100, y: 0, z: 50}
+    to: {x: 0, y: 0, z: -2}
+
+product:
+  name: nic M6 assmeble bolt
+  url: https://www.nic-inc.co.jp/alfaframe/product/pdf_catalog/pdf/catalog_bolt_nut.pdf
+distributor:
+  - name: monotaro
+    url: https://www.monotaro.com/p/0840/5748/
+    price: 36

@@ -1,0 +1,21 @@
+version: 0.0
+category: harness
+name: motor_harness
+
+common:
+  description: motor power from bottom_board to base_board
+
+harness:
+  line:
+    kind: AWG24
+    length: 0.1
+    names: [VCC, SDA, SDL, GND]
+  end1:
+    family: PH
+    model: 4pin
+    assign: [VCC, SDA, SDL, GND]
+  end2:
+    family: PH
+    model: 5pin
+    assign: [VCC, SDA, SDL, GND, Null]
+  cost: 300

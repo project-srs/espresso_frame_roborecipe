@@ -1,0 +1,19 @@
+version: 0.0
+category: laser_cut
+name: sidewall_plate3
+
+common:
+  description: back side wall
+
+rigit_body:
+  mesh:
+    path: meshes/sidewall_plate3.stl
+  view:
+    from: {x: 400, y: 100, z: 150}
+    to: {x: 0, y: 0, z: 2}
+
+process:
+  data:
+    path: resources/sidewall_plate3.dxf
+  material: mdf_4mm
+  cost: 200
