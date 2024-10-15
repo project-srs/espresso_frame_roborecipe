@@ -9,8 +9,8 @@ rigit_body:
   mesh:
     path: meshes/sidewall_plate3.stl
   view:
-    from: {x: 400, y: 100, z: 150}
-    to: {x: 0, y: 0, z: 2}
+    from: {x: 250, y: 100, z: 150}
+    to: {x: -150, y: 0, z: 25}
 
 process:
   data:

@@ -1,0 +1,15 @@
+version: 0.0
+name: tower_back_asm
+category: assembly
+
+common:
+  description: misumi frame assembly
+  image_list: [resources/frame_asm.jpg]
+
+procedure_list:
+  - type: attach
+    view_list: 
+      - {from: {x: 800, y: 300, z: 100}, to: {x: 0, y: 0, z: -200}, angle: 30}
+    component_list:
+      - {pkg: espresso_frame_fabrication_parts, type: tower_back_plate, origin: {x: 0, y: 0, z: 0, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 0}}
+
