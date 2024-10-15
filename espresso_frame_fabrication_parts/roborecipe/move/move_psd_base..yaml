@@ -1,0 +1,19 @@
+version: 0.0
+category: 3d_print
+name: move_psd_base
+
+common:
+  description: holder for psd sensor
+
+rigit_body:
+  mesh:
+    path: meshes/move/move_psd_base.stl
+  view:
+    from: {x: 250, y: 50, z: 150}
+    to: {x: 0, y: 0, z: 2}
+
+process:
+  data:
+    path: resources/psd_base.stl
+  material: abs
+  cost: 500

@@ -1,0 +1,19 @@
+version: 0.0
+category: order
+name: move_motor_bracket
+
+common:
+  description: meviy sheet metal
+
+rigit_body:
+  mesh:
+    path: meshes/move/move_motor_bracket.stl
+  view:
+    from: {x: 150, y: 50, z: 150}
+    to: {x: 0, y: 0, z: -20}
+
+process:
+  data:
+    path: resources/move/move_motor_bracket.step
+  material: stenless
+  cost: 5000

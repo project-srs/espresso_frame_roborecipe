@@ -1,0 +1,19 @@
+version: 0.0
+name: move_led_asm
+category: assembly
+
+common:
+  description: led plate & holder assembly
+
+procedure_list:
+  - type: attach
+    view_list: 
+      - {from: {x: 100, y: 100, z: 100}, to: {x: 0, y: 0, z: 0}, angle: 30}
+    component_list:
+      - {pkg: espresso_frame_fabrication_parts, type: move_led_base, origin: {x: 0, y: 0, z: 0, roll: 180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 0}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: 250, y: 100, z: 50}, to: {x: 0, y: 0, z: 0}, angle: 30}
+    component_list:
+      - {pkg: pixhawk_related_parts, type: ws2812b_board, origin: {x: 1, y: 0, z: -7, roll: 0, pitch: 135, yaw: 0}, move: {x: 20, y: 0, z: -20}}

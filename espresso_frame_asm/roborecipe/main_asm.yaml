@@ -11,7 +11,7 @@ procedure_list:
     view_list: 
       - {from: {x: 700, y: 200, z: 400}, to: {x: 0, y: 0, z: 0}, angle: 30}
     component_list:
-      - {pkg: espresso_frame_asm, type: move_asm, origin: {x: 0, y: 0, z: 0, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 0}}
+      - {pkg: espresso_frame_asm, type: move_main_asm, origin: {x: 0, y: 0, z: 0, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 0}}
 
   - type: attach
     view_list: 

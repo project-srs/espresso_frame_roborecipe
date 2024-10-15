@@ -1,0 +1,113 @@
+version: 0.0
+name: move_base_asm
+category: assembly
+
+common:
+  description: sub-assembly of base module
+
+procedure_list:
+  - type: attach
+    view_list: 
+      - {from: {x: 700, y: 200, z: 400}, to: {x: 0, y: 0, z: 0}, angle: 30}
+    component_list:
+      - {pkg: espresso_frame_fabrication_parts, type: move_base_plate, origin: {x: 0, y: 0, z: 0, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 0}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: 700, y: 200, z: 400}, to: {x: 0, y: 0, z: 0}, angle: 30}
+      - {from: {x: 700, y: 200, z: -400}, to: {x: 0, y: 0, z: 0}, angle: 30}
+    component_list:
+      - {pkg: m3_screw, type: low_head_8, origin: {x: 73, y: 33, z: 4, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 20}}
+      - {pkg: m3_screw, type: low_head_8, origin: {x: 73, y: -33, z: 4, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 20}}
+      - {pkg: m3_screw, type: low_head_8, origin: {x: 31.5, y: 33, z: 4, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 20}}
+      - {pkg: m3_screw, type: low_head_8, origin: {x: 31.5, y: -33, z: 4, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 20}}
+      - {pkg: m3_standoff, type: hex_f_f_6, origin: {x: 73, y: 33, z: -6, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -15}}
+      - {pkg: m3_standoff, type: hex_f_f_6, origin: {x: 73, y: -33, z: -6, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -15}}
+      - {pkg: m3_standoff, type: hex_f_f_6, origin: {x: 31.5, y: 33, z: -6, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -15}}
+      - {pkg: m3_standoff, type: hex_f_f_6, origin: {x: 31.5, y: -33, z: -6, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -15}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: 700, y: 200, z: 400}, to: {x: 0, y: 0, z: 0}, angle: 30}
+      - {from: {x: 700, y: 200, z: -400}, to: {x: 0, y: 0, z: 0}, angle: 30}
+    component_list:
+      - {pkg: commercial_electronic_parts, type: intel_nuc, origin: {x: 82.5, y: 0, z: 4, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 20}}
+      - {pkg: m3_screw, type: pan_10_p2, origin: {x: 40, y: 0, z: 0, roll: 180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -25}}
+      - {pkg: m3_screw, type: pan_10_p2, origin: {x: 125, y: 0, z: 0, roll: 180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -25}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: 700, y: 200, z: -400}, to: {x: 0, y: 0, z: 0}, angle: 30}
+    component_list:
+      - {pkg: espresso_frame_electric_parts, type: base_motor_board, origin: {x: 52.25, y: 0, z: -6, roll: 180, pitch: 0, yaw: 90}, move: {x: 0, y: 0, z: -10}}
+      - {pkg: m3_screw, type: pan_6_p2, origin: {x: 73, y: 33, z: -7.5, roll: 180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -30}}
+      - {pkg: m3_screw, type: pan_6_p2, origin: {x: 73, y: -33, z: -7.5, roll: 180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -30}}
+      - {pkg: m3_screw, type: pan_6_p2, origin: {x: 31.5, y: 33, z: -7.5, roll: 180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -30}}
+      - {pkg: m3_screw, type: pan_6_p2, origin: {x: 31.5, y: -33, z: -7.5, roll: 180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -30}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: 700, y: 200, z: 400}, to: {x: 0, y: 0, z: 0}, angle: 30}
+      - {from: {x: 700, y: 200, z: -400}, to: {x: 0, y: 0, z: 0}, angle: 30}
+    component_list:
+      - {pkg: espresso_frame_asm, type: move_motor_asm, origin: {x: 0, y: 157.4, z: -6, roll: 0, pitch: 0, yaw: 90}, move: {x: 0, y: 0, z: -15}}
+      - {pkg: m3_screw, type: pan_8_p2, origin: {x: 15.6, y: 149.05, z: 4, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 20}}
+      - {pkg: m3_screw, type: pan_8_p2, origin: {x: -15.6, y: 149.05, z: 4, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 20}}
+      - {pkg: m3_screw, type: pan_8_p2, origin: {x: 15.6, y: 110.95, z: 4, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 20}}
+      - {pkg: m3_screw, type: pan_8_p2, origin: {x: -15.6, y: 110.95, z: 4, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 20}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: 700, y: 200, z: 400}, to: {x: 0, y: 0, z: 0}, angle: 30}
+      - {from: {x: 700, y: 200, z: -400}, to: {x: 0, y: 0, z: 0}, angle: 30}
+    component_list:
+      - {pkg: espresso_frame_asm, type: move_motor_asm, origin: {x: 0, y: -157.4, z: -6, roll: 0, pitch: 0, yaw: -90}, move: {x: 0, y: 0, z: -15}}
+      - {pkg: m3_screw, type: pan_8_p2, origin: {x: 15.6, y: -149.05, z: 4, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 20}}
+      - {pkg: m3_screw, type: pan_8_p2, origin: {x: -15.6, y: -149.05, z: 4, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 20}}
+      - {pkg: m3_screw, type: pan_8_p2, origin: {x: 15.6, y: -110.95, z: 4, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 20}}
+      - {pkg: m3_screw, type: pan_8_p2, origin: {x: -15.6, y: -110.95, z: 4, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 20}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: -700, y: 200, z: 400}, to: {x: 0, y: 0, z: 0}, angle: 30}
+      - {from: {x: -700, y: 200, z: -400}, to: {x: 0, y: 0, z: 0}, angle: 30}
+    component_list:
+      - {pkg: caster_parts, type: susaj-ts4-75u, origin: {x: -230, y: 0, z: 0, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -15}}
+      - {pkg: m6_screw, type: APBS-06-15, origin: {x: -216, y: 28, z: 4, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 25}}
+      - {pkg: m6_screw, type: APBS-06-15, origin: {x: -216, y: -28, z: 4, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 25}}
+      - {pkg: m6_screw, type: APBS-06-15, origin: {x: -244, y: 28, z: 4, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 25}}
+      - {pkg: m6_screw, type: APBS-06-15, origin: {x: -244, y: -28, z: 4, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 25}}
+      - {pkg: m6_screw, type: nut_2, origin: {x: -216, y: 28, z: 0, roll: 180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -25}}
+      - {pkg: m6_screw, type: nut_2, origin: {x: -216, y: -28, z: 0, roll: 180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -25}}
+      - {pkg: m6_screw, type: nut_2, origin: {x: -244, y: 28, z: 0, roll: 180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -25}}
+      - {pkg: m6_screw, type: nut_2, origin: {x: -244, y: -28, z: 0, roll: 180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -25}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: 700, y: 200, z: 400}, to: {x: 0, y: 0, z: 0}, angle: 30}
+      - {from: {x: 700, y: 200, z: -400}, to: {x: 0, y: 0, z: 0}, angle: 30}
+    component_list:
+      - {pkg: espresso_frame_fabrication_parts, type: move_base_front_bumper, origin: {x: 0, y: 0, z: -4, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -10}}
+      - {pkg: espresso_frame_fabrication_parts, type: move_base_front_bumper, origin: {x: 0, y: 0, z: -8, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -20}}
+      - {pkg: espresso_frame_fabrication_parts, type: move_base_front_bumper, origin: {x: 0, y: 0, z: -12, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -30}}
+      - {pkg: m3_screw, type: pan_20, origin: {x: 192, y: 0, z: 4, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 25}}
+      - {pkg: m3_screw, type: pan_20, origin: {x: 96, y: 166.3, z: 4, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 25}}
+      - {pkg: m3_screw, type: pan_20, origin: {x: 96, y: -166.3, z: 4, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 25}}
+      - {pkg: m3_screw, type: nut_2, origin: {x: 192, y: 0, z: -12, roll: 180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -40}}
+      - {pkg: m3_screw, type: nut_2, origin: {x: 96, y: 166.3, z: -12, roll: 180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -40}}
+      - {pkg: m3_screw, type: nut_2, origin: {x: 96, y: -166.3, z: -12, roll: 180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -40}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: -700, y: 200, z: 400}, to: {x: 0, y: 0, z: 0}, angle: 30}
+      - {from: {x: -700, y: 200, z: -400}, to: {x: 0, y: 0, z: 0}, angle: 30}
+    component_list:
+      - {pkg: espresso_frame_fabrication_parts, type: move_base_back_bumper, origin: {x: 0, y: 0, z: -4, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -10}}
+      - {pkg: espresso_frame_fabrication_parts, type: move_base_back_bumper, origin: {x: 0, y: 0, z: -8, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -20}}
+      - {pkg: espresso_frame_fabrication_parts, type: move_base_back_bumper, origin: {x: 0, y: 0, z: -12, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -30}}
+      - {pkg: m3_screw, type: pan_20, origin: {x: -287, y: 0, z: 4, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 25}}
+      - {pkg: m3_screw, type: pan_20, origin: {x: -131.3, y: 154.1, z: 4, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 45}}
+      - {pkg: m3_screw, type: pan_20, origin: {x: -131.3, y: -154.1, z: 4, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 45}}
+      - {pkg: m3_screw, type: nut_2, origin: {x: -287, y: 0, z: -12, roll: 180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -30}}
+      - {pkg: m3_screw, type: nut_2, origin: {x: -131.3, y: 154.1, z: -12, roll: 180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -40}}
+      - {pkg: m3_screw, type: nut_2, origin: {x: -131.3, y: -154.1, z: -12, roll: 180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -40}}

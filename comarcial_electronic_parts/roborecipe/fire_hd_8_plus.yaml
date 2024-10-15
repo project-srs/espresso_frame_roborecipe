@@ -1,0 +1,21 @@
+version: 0.0
+category: electric
+name: fire_hd_8_plus
+
+common:
+  description: android tablet
+
+rigit_body:
+  mesh:
+    path: meshes/fire_hd_8_plus.stl
+  view:
+    from: {x: 250, y: 50, z: 150}
+    to: {x: 0, y: 0, z: 2}
+
+product:
+  name: kindle fire hd 8
+  url: https://www.amazon.co.jp/dp/B0CTMQJH5P
+distributor:
+  - name: unknown
+    url: unknown
+    price: 15000

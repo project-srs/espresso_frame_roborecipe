@@ -1,0 +1,21 @@
+version: 0.0
+category: electric
+name: CMS-V43BK
+
+common:
+  description: wide web camera
+
+rigit_body:
+  mesh:
+    path: meshes/CMS-V43BK.stl
+  view:
+    from: {x: 250, y: 50, z: 150}
+    to: {x: 0, y: 0, z: 2}
+
+product:
+  name: CMS-V43BK
+  url: https://www.sanwa.co.jp/product/syohin?code=CMS-V43BK
+distributor:
+  - name: amazon
+    url: https://www.amazon.co.jp/dp/B07JN3NYC5
+    price: 4280

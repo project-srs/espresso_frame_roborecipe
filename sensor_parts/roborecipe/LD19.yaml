@@ -1,0 +1,21 @@
+version: 0.0
+category: electric
+name: LD19
+
+common:
+  description: 2d lidar
+
+rigit_body:
+  mesh:
+    path: meshes/LD19.stl
+  view:
+    from: {x: 250, y: 50, z: 150}
+    to: {x: 0, y: 0, z: 2}
+
+product:
+  name: LDLIDAR LD19
+  url: https://www.dfrobot.com/product-2610.html
+distributor:
+  - name: switch-science
+    url: https://www.switch-science.com/products/8599?srsltid=AfmBOorZCu3UZKKU1vFF-URrrmV1k3IVANlLVg4KyX3J5dB_N7fkAcGG
+    price: 23963

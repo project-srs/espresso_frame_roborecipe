@@ -1,0 +1,19 @@
+version: 0.0
+category: laser_cut
+name: move_base_back_bumper
+
+common:
+  description: back bumper on base_plate 
+
+rigit_body:
+  mesh:
+    path: meshes/move/move_base_back_bumper.stl
+  view:
+    from: {x: 50, y: 200, z: 250}
+    to: {x: -250, y: 0, z: 2}
+
+process:
+  data:
+    path: resources/base_back_bumper.dxf
+  material: mdf_4mm
+  cost: 200

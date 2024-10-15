@@ -19,12 +19,35 @@ procedure_list:
     component_list:
       - {pkg: espresso_frame_fabrication_parts, type: tower_front_stand_left, origin: {x: 0, y: 0, z: 0, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 20}}
       - {pkg: espresso_frame_fabrication_parts, type: tower_front_stand_right, origin: {x: 0, y: 0, z: 0, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 20}}
+      - {pkg: m3_screw, type: ck-100, origin: {x: 92, y: 55, z: 4, roll: 0, pitch: 0, yaw: 90}, move: {x: 0, y: 0, z: 20}}
+      - {pkg: m3_screw, type: ck-100, origin: {x: 92, y: -55, z: 4, roll: 0, pitch: 0, yaw: -90}, move: {x: 0, y: 0, z: 20}}
+      - {pkg: m3_screw, type: pan_8_p2, origin: {x: 92, y: 55, z: 0, roll: -180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -15}}
+      - {pkg: m3_screw, type: pan_8_p2, origin: {x: 92, y: -55, z: 0, roll: -180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -15}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: 400, y: 150, z: 250}, to: {x: 0, y: 0, z: 120}, angle: 30}
+      - {from: {x: 400, y: -150, z: 250}, to: {x: 0, y: 0, z: 120}, angle: 30}
+    component_list:
+      - {pkg: m3_screw, type: ck-100, origin: {x: 4, y: -55, z: 42, roll: -90, pitch: 0, yaw: -90}, move: {x: 0, y: 10, z: 0}}
+      - {pkg: m3_screw, type: ck-100, origin: {x: 4, y: -55, z: 158, roll: -90, pitch: 0, yaw: -90}, move: {x: 0, y: 10, z: 0}}
+      - {pkg: m3_screw, type: ck-100, origin: {x: 4, y: 55, z: 42, roll: 90, pitch: 0, yaw: 90}, move: {x: 0, y: -10, z: 0}}
+      - {pkg: m3_screw, type: ck-100, origin: {x: 4, y: 55, z: 158, roll: 90, pitch: 0, yaw: 90}, move: {x: 0, y: -10, z: 0}}
+      - {pkg: m3_screw, type: pan_8_p2, origin: {x: 17.5, y: -64, z: 42, roll: 90, pitch: 0, yaw: 0}, move: {x: 0, y: -15, z: 0}}
+      - {pkg: m3_screw, type: pan_8_p2, origin: {x: 17.5, y: -64, z: 158, roll: 90, pitch: 0, yaw: 0}, move: {x: 0, y: -15, z: 0}}
+      - {pkg: m3_screw, type: pan_8_p2, origin: {x: 17.5, y: 64, z: 42, roll: -90, pitch: 0, yaw: 0}, move: {x: 0, y: 15, z: 0}}
+      - {pkg: m3_screw, type: pan_8_p2, origin: {x: 17.5, y: 64, z: 158, roll: -90, pitch: 0, yaw: 0}, move: {x: 0, y: 15, z: 0}}
 
   - type: attach
     view_list: 
       - {from: {x: 800, y: 300, z: 400}, to: {x: 0, y: 0, z: 100}, angle: 30}
+      - {from: {x: -800, y: 300, z: 400}, to: {x: 0, y: 0, z: 100}, angle: 30}
     component_list:
       - {pkg: espresso_frame_fabrication_parts, type: tower_front_base, origin: {x: 0, y: 0, z: 0, roll: 0, pitch: 0, yaw: 0}, move: {x: -20, y: 0, z: 0}}
+      - {pkg: m3_screw, type: pan_8_p2, origin: {x: 0, y: -55, z: 42, roll: 0, pitch: -90, yaw: 0}, move: {x: -35, y: 0, z: 0}}
+      - {pkg: m3_screw, type: pan_8_p2, origin: {x: 0, y: -55, z: 158, roll: 0, pitch: -90, yaw: 0}, move: {x: -35, y: 0, z: 0}}
+      - {pkg: m3_screw, type: pan_8_p2, origin: {x: 0, y: 55, z: 42, roll: 0, pitch: -90, yaw: 0}, move: {x: -35, y: 0, z: 0}}
+      - {pkg: m3_screw, type: pan_8_p2, origin: {x: 0, y: 55, z: 158, roll: 0, pitch: -90, yaw: 0}, move: {x: -35, y: 0, z: 0}}
 
   - type: attach
     view_list: 
@@ -55,6 +78,7 @@ procedure_list:
       - {from: {x: 400, y: 300, z: 350}, to: {x: 0, y: 0, z: 250}, angle: 30}
       - {from: {x: -400, y: 300, z: 350}, to: {x: 0, y: 0, z: 250}, angle: 30}
     component_list:
+      - {pkg: sensor_parts, type: CMS-V43BK, origin: {x: -15.5, y: 0, z: 264, roll: 0, pitch: 0, yaw: 0}, move: {x: -10, y: 0, z: 0}}
       - {pkg: espresso_frame_fabrication_parts, type: tower_front_cam_holder1, origin: {x: -10, y: 29, z: 264, roll: 0, pitch: 0, yaw: 0}, move: {x: -10, y: 0, z: 0}}
       - {pkg: espresso_frame_fabrication_parts, type: tower_front_cam_holder1, origin: {x: -10, y: -33, z: 264, roll: 0, pitch: 0, yaw: 0}, move: {x: -10, y: 0, z: 0}}
       - {pkg: espresso_frame_fabrication_parts, type: tower_front_cam_holder2, origin: {x: -31.5, y: 0, z: 214, roll: 0, pitch: 0, yaw: 0}, move: {x: -10, y: 0, z: 0}}
@@ -62,4 +86,25 @@ procedure_list:
       - {pkg: m3_screw, type: pan_8_p2, origin: {x: -13.5, y: -34, z: 243, roll: 90, pitch: 0, yaw: 0}, move: {x: 0, y: -15, z: 0}}
       - {pkg: m3_screw, type: pan_8_p2, origin: {x: -13.5, y: 34, z: 285, roll: -90, pitch: 0, yaw: 0}, move: {x: 0, y: 15, z: 0}}
       - {pkg: m3_screw, type: pan_8_p2, origin: {x: -13.5, y: 34, z: 243, roll: -90, pitch: 0, yaw: 0}, move: {x: 0, y: 15, z: 0}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: 300, y: 200, z: -200}, to: {x: 0, y: 0, z: 0}, angle: 30}
+      - {from: {x: 300, y: 200, z: 200}, to: {x: 0, y: 0, z: 0}, angle: 30}
+    component_list:
+      - {pkg: m3_screw, type: pan_8_p2, origin: {x: 65, y: 20, z: 4, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 15}}
+      - {pkg: m3_screw, type: pan_8_p2, origin: {x: 105, y: 20, z: 4, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 15}}
+      - {pkg: m3_screw, type: pan_8_p2, origin: {x: 65, y: -20, z: 4, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 15}}
+      - {pkg: m3_screw, type: pan_8_p2, origin: {x: 105, y: -20, z: 4, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 15}}
+      - {pkg: m3_standoff, type: hex_f_f_6, origin: {x: 65, y: 20, z: 0, roll: 180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -10}}
+      - {pkg: m3_standoff, type: hex_f_f_6, origin: {x: 105, y: 20, z: 0, roll: 180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -10}}
+      - {pkg: m3_standoff, type: hex_f_f_6, origin: {x: 65, y: -20, z: 0, roll: 180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -10}}
+      - {pkg: m3_standoff, type: hex_f_f_6, origin: {x: 105, y: -20, z: 0, roll: 180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -10}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: 800, y: 300, z: 400}, to: {x: 0, y: 0, z: 120}, angle: 30}
+    component_list:
+      - {pkg: commercial_electronic_parts, type: fire_hd_8_plus, origin: {x: 73.1, y: 0, z: 118.8, roll: 70.5, pitch: 0, yaw: 90}, move: {x: -66.8, y: 0, z: 188.5}}
+
 

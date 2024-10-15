@@ -1,0 +1,35 @@
+version: 0.0
+name: move_push_bumper_right_asm
+category: assembly
+
+common:
+  description: sub-assembly of bumper
+
+procedure_list:
+  - type: attach
+    view_list: 
+      - {from: {x: 450, y: 200, z: 150}, to: {x: 150, y: 0, z: 0}, angle: 30}
+    component_list:
+      - {pkg: espresso_frame_fabrication_parts, type: move_push_bumper_a, origin: {x: 0, y: 0, z: 4, roll: 180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 0}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: 450, y: 200, z: 150}, to: {x: 150, y: 0, z: 0}, angle: 30}
+    component_list:
+      - {pkg: espresso_frame_fabrication_parts, type: move_push_bumper_b, origin: {x: 0, y: 0, z: 8, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 30}}
+      - {pkg: espresso_frame_fabrication_parts, type: move_push_bumper_a, origin: {x: 0, y: 0, z: 8, roll: 180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 15}}
+      - {pkg: espresso_frame_fabrication_parts, type: move_push_bumper_b, origin: {x: 0, y: 0, z: -4, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -15}}
+      - {pkg: espresso_frame_fabrication_parts, type: move_push_bumper_b, origin: {x: 0, y: 0, z: -8, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -30}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: 450, y: 200, z: 150}, to: {x: 150, y: 0, z: 0}, angle: 30}
+      - {from: {x: 450, y: 200, z: -150}, to: {x: 150, y: 0, z: 0}, angle: 30}
+    component_list:
+      - {pkg: m3_screw, type: pan_25, origin: {x: 202, y: 0, z: 12, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 35}}
+      - {pkg: m3_screw, type: pan_25, origin: {x: 183.1, y: 85.4, z: 12, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 35}}
+      - {pkg: m3_screw, type: pan_25, origin: {x: 183.1, y: -85.4, z: 12, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 35}}
+      - {pkg: m3_screw, type: nut_2, origin: {x: 202, y: 0, z: -8, roll: 180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -10}}
+      - {pkg: m3_screw, type: nut_2, origin: {x: 183.1, y: 85.4, z: -8, roll: 180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -10}}
+      - {pkg: m3_screw, type: nut_2, origin: {x: 183.1, y: -85.4, z: -8, roll: 180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -10}}
+
