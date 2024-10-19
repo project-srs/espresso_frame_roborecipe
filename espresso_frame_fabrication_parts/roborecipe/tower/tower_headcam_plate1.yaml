@@ -14,6 +14,6 @@ rigit_body:
 
 process:
   data:
-    path: resources/base_plate.dxf
+    path: resources/tower/tower_headcam_plate1.dxf
   material: mdf_4mm
   cost: 100

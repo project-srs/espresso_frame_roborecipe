@@ -14,6 +14,6 @@ rigit_body:
 
 process:
   data:
-    path: resources/base_front_bumper.dxf
+    path: resources/move/move_base_front_bumper.dxf
   material: mdf_4mm
-  cost: 200
+  cost: 500

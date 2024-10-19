@@ -14,6 +14,6 @@ rigit_body:
 
 process:
   data:
-    path: resources/sonar_plate.dxf
+    path: resources/move/move_sonar_plate.dxf
   material: mdf_4mm
   cost: 100

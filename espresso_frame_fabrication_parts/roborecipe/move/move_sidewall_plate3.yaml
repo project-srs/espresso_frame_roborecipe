@@ -14,6 +14,6 @@ rigit_body:
 
 process:
   data:
-    path: resources/sidewall_plate3.dxf
+    path: resources/move/move_sidewall_plate3.dxf
   material: mdf_4mm
   cost: 200

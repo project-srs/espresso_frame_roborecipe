@@ -14,6 +14,6 @@ rigit_body:
 
 process:
   data:
-    path: resources/compass_plate.dxf
+    path: resources/move/move_compass_plate.dxf
   material: mdf_4mm
   cost: 200

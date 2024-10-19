@@ -14,6 +14,6 @@ rigit_body:
 
 process:
   data:
-    path: resources/base_plate.dxf
-  material: mdf_5.5mm
+    path: resources/move/move_base_plate.dxf
+  material: mdf_4mm
   cost: 700

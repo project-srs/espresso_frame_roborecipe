@@ -3,7 +3,7 @@ category: laser_cut
 name: tower_back_plate
 
 common:
-  description: body structure base plate
+  description: back parts mount
 
 rigit_body:
   mesh:
@@ -14,6 +14,6 @@ rigit_body:
 
 process:
   data:
-    path: resources/base_plate.dxf
+    path: resources/tower/tower_back_plate.dxf
   material: mdf_4mm
   cost: 500

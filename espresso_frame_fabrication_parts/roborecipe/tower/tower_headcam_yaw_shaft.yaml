@@ -3,7 +3,7 @@ category: laser_cut
 name: tower_headcam_yaw_shaft
 
 common:
-  description: body structure base plate
+  description: realsense camera mount plate
 
 rigit_body:
   mesh:
@@ -14,6 +14,6 @@ rigit_body:
 
 process:
   data:
-    path: resources/base_plate.dxf
-  material: mdf_4mm
-  cost: 100
+    path: resources/tower/tower_headcam_yaw_shaft.stl
+  material: abs
+  cost: 500
