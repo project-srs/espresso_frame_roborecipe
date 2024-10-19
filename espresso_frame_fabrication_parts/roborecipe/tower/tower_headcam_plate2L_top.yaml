@@ -1,0 +1,19 @@
+version: 0.0
+category: laser_cut
+name: tower_headcam_plate2L_top
+
+common:
+  description: body structure base plate
+
+rigit_body:
+  mesh:
+    path: meshes/tower/tower_headcam_plate2L_top.stl
+  view:
+    from: {x: 400, y: 200, z: 400}
+    to: {x: 0, y: 0, z: 2}
+
+process:
+  data:
+    path: resources/base_plate.dxf
+  material: mdf_4mm
+  cost: 100

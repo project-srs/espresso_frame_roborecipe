@@ -103,8 +103,16 @@ procedure_list:
 
   - type: attach
     view_list: 
+      - {from: {x: 400, y: 200, z: -100}, to: {x: 50, y: 0, z: -50}, angle: 30}
+    component_list:
+      - {pkg: espresso_frame_asm, type: tower_headcam_asm, origin: {x: 85, y: 0, z: -10, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -10}}
+      - {pkg: m3_screw, type: pan_8_p2, origin: {x: 65, y: 20, z: -10, roll: 180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -15}}
+      - {pkg: m3_screw, type: pan_8_p2, origin: {x: 105, y: 20, z: -10, roll: 180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -15}}
+      - {pkg: m3_screw, type: pan_8_p2, origin: {x: 65, y: -20, z: -10, roll: 180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -15}}
+      - {pkg: m3_screw, type: pan_8_p2, origin: {x: 105, y: -20, z: -10, roll: 180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -15}}
+
+  - type: attach
+    view_list: 
       - {from: {x: 800, y: 300, z: 400}, to: {x: 0, y: 0, z: 120}, angle: 30}
     component_list:
       - {pkg: commercial_electronic_parts, type: fire_hd_8_plus, origin: {x: 73.1, y: 0, z: 118.8, roll: 70.5, pitch: 0, yaw: 90}, move: {x: -66.8, y: 0, z: 188.5}}
-
-

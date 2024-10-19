@@ -1,0 +1,23 @@
+version: 0.0
+name: tower_headcam_camera_asm
+category: assembly
+
+common:
+  description: misumi frame assembly
+  image_list: []
+
+procedure_list:
+  - type: attach
+    view_list: 
+      - {from: {x: 200, y: 100, z: 100}, to: {x: 0, y: 0, z: 0}, angle: 30}
+    component_list:
+      - {pkg: espresso_frame_fabrication_parts, type: tower_headcam_plate1, origin: {x: 0, y: 0, z: 0, roll: 90, pitch: 0, yaw: 90}, move: {x: 0, y: 0, z: 0}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: 200, y: 100, z: 100}, to: {x: 0, y: 0, z: 0}, angle: 30}
+      - {from: {x: -200, y: 100, z: 100}, to: {x: 0, y: 0, z: 0}, angle: 30}
+    component_list:
+      - {pkg: sensor_parts, type: realsense_D435, origin: {x: 4, y: 0, z: 0, roll: 0, pitch: 0, yaw: -90}, move: {x: 10, y: 0, z: 0}}
+      - {pkg: m3_screw, type: pan_8_p2, origin: {x: 0, y: -22.5, z: 0, roll: 0, pitch: -90, yaw: 0}, move: {x: -15, y: 0, z: 0}}
+      - {pkg: m3_screw, type: pan_8_p2, origin: {x: 0, y: 22.5, z: 0, roll: 0, pitch: -90, yaw: 0}, move: {x: -15, y: 0, z: 0}}

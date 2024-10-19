@@ -1,0 +1,97 @@
+version: 0.0
+name: tower_headcam_asm
+category: assembly
+
+common:
+  description: misumi frame assembly
+  image_list: []
+
+procedure_list:
+  - type: attach
+    view_list: 
+      - {from: {x: 200, y: 100, z: 100}, to: {x: 0, y: 0, z: 0}, angle: 30}
+    component_list:
+      - {pkg: espresso_frame_fabrication_parts, type: tower_headcam_plate3, origin: {x: 0, y: 0, z: 0, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 0}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: 200, y: 100, z: 100}, to: {x: 0, y: 0, z: 0}, angle: 30}
+    component_list:
+      - {pkg: commercial_electronic_parts, type: STS3215, origin: {x: 0, y: 0, z: 36, roll: 180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 10}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: 200, y: 100, z: -100}, to: {x: 0, y: 0, z: 0}, angle: 30}
+    component_list:
+      - {pkg: commercial_electronic_parts, type: STS_horn_top, origin: {x: 0, y: 0, z: 4, roll: 180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -10}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: 200, y: 100, z: -100}, to: {x: 0, y: 0, z: 0}, angle: 30}
+    component_list:
+      - {pkg: espresso_frame_fabrication_parts, type: tower_headcam_yaw_shaft, origin: {x: 0, y: 0, z: -13.5, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -10}}
+      - {pkg: m3_screw, type: pan_15, origin: {x: 7, y: 0, z: -11.5, roll: 180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -30}}
+      - {pkg: m3_screw, type: pan_15, origin: {x: -7, y: 0, z: -11.5, roll: 180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -30}}
+      - {pkg: m3_screw, type: pan_15, origin: {x: 0, y: 7, z: -11.5, roll: 180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -30}}
+      - {pkg: m3_screw, type: pan_15, origin: {x: 0, y: -7, z: -11.5, roll: 180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -30}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: 200, y: -100, z: -100}, to: {x: 0, y: 0, z: 0}, angle: 30}
+    component_list:
+      - {pkg: espresso_frame_fabrication_parts, type: tower_headcam_plate2L_top, origin: {x: 0, y: -16, z: -44.5, roll: 90, pitch: 0, yaw: 0}, move: {x: 0, y: -10, z: 0}}
+      - {pkg: m3_screw, type: tapping_10, origin: {x: -13, y: -20, z: -9.5, roll: 90, pitch: 0, yaw: 0}, move: {x: 0, y: -15, z: 0}}
+      - {pkg: m3_screw, type: tapping_10, origin: {x: 13, y: -20, z: -9.5, roll: 90, pitch: 0, yaw: 0}, move: {x: 0, y: -15, z: 0}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: 200, y: -100, z: -100}, to: {x: 0, y: 0, z: 0}, angle: 30}
+      - {from: {x: 200, y: 100, z: -100}, to: {x: 0, y: 0, z: 0}, angle: 30}
+    component_list:
+      - {pkg: commercial_electronic_parts, type: STS3215, origin: {x: 0, y: 16, z: -44.5, roll: 90, pitch: 0, yaw: 0}, move: {x: 0, y: 10, z: 0}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: 200, y: 100, z: -100}, to: {x: 0, y: 0, z: 0}, angle: 30}
+    component_list:
+      - {pkg: espresso_frame_fabrication_parts, type: tower_headcam_plate2R_bottom, origin: {x: 0, y: 20, z: -44.5, roll: 90, pitch: 0, yaw: 0}, move: {x: 0, y: 10, z: 0}}
+      - {pkg: m3_screw, type: tapping_10, origin: {x: -13, y: 20, z: -9.5, roll: -90, pitch: 0, yaw: 0}, move: {x: 0, y: 15, z: 0}}
+      - {pkg: m3_screw, type: tapping_10, origin: {x: 13, y: 20, z: -9.5, roll: -90, pitch: 0, yaw: 0}, move: {x: 0, y: 15, z: 0}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: 200, y: 100, z: -100}, to: {x: 0, y: 0, z: 0}, angle: 30}
+    component_list:
+      - {pkg: commercial_electronic_parts, type: STS_horn_top, origin: {x: 0, y: 16, z: -44.5, roll: -90, pitch: 0, yaw: 0}, move: {x: 0, y: 10, z: 0}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: 200, y: 100, z: -100}, to: {x: 0, y: 0, z: 0}, angle: 30}
+      - {from: {x: -200, y: 100, z: -100}, to: {x: 0, y: 0, z: 0}, angle: 30}
+    component_list:
+      - {pkg: espresso_frame_fabrication_parts, type: tower_headcam_armL_top, origin: {x: 0, y: 30, z: -44.5, roll: 90, pitch: 0, yaw: 0}, move: {x: 0, y: 10, z: 0}}
+      - {pkg: m3_screw, type: pan_8_p2, origin: {x: 0, y: 25.5, z: -37.5, roll: -90, pitch: 0, yaw: 0}, move: {x: 0, y: 25, z: 0}}
+      - {pkg: m3_screw, type: pan_8_p2, origin: {x: 0, y: 25.5, z: -51.5, roll: -90, pitch: 0, yaw: 0}, move: {x: 0, y: 25, z: 0}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: 200, y: -100, z: -100}, to: {x: 0, y: 0, z: 0}, angle: 30}
+    component_list:
+      - {pkg: commercial_electronic_parts, type: STS_horn_bottom, origin: {x: 0, y: -16, z: -44.5, roll: 90, pitch: 0, yaw: 0}, move: {x: 0, y: -10, z: 0}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: -200, y: -100, z: -100}, to: {x: 0, y: 0, z: 0}, angle: 30}
+    component_list:
+      - {pkg: espresso_frame_fabrication_parts, type: tower_headcam_armR_bottom, origin: {x: 0, y: -30, z: -44.5, roll: -90, pitch: 0, yaw: 0}, move: {x: 0, y: -10, z: 0}}
+      - {pkg: m3_screw, type: pan_8_p2, origin: {x: 0, y: -25.5, z: -37.5, roll: 90, pitch: 0, yaw: 0}, move: {x: 0, y: -25, z: 0}}
+      - {pkg: m3_screw, type: pan_8_p2, origin: {x: 0, y: -25.5, z: -51.5, roll: 90, pitch: 0, yaw: 0}, move: {x: 0, y: -25, z: 0}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: 200, y: -100, z: 50}, to: {x: 0, y: 0, z: -50}, angle: 30}
+      - {from: {x: 200, y: -100, z: -100}, to: {x: 0, y: 0, z: -50}, angle: 30}
+    component_list:
+      - {pkg: espresso_frame_asm, type: tower_headcam_camera_asm, origin: {x: 20, y: 0, z: -44.5, roll: 0, pitch: 0, yaw: 0}, move: {x: 5, y: 0, z: -10}}
+      - {pkg: m3_screw, type: pan_8_p2, origin: {x: 24, y: -26, z: -62.5, roll: 0, pitch: 90, yaw: 0}, move: {x: 15, y: 0, z: -10}}
+      - {pkg: m3_screw, type: pan_8_p2, origin: {x: 24, y: 26, z: -62.5, roll: 0, pitch: 90, yaw: 0}, move: {x: 15, y: -0, z: -10}}

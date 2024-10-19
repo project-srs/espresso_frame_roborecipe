@@ -1,0 +1,21 @@
+version: 0.0
+category: electric
+name: realsense_D435
+
+common:
+  description: RGBD camera
+
+rigit_body:
+  mesh:
+    path: meshes/realsense_D435.stl
+  view:
+    from: {x: 250, y: 50, z: 150}
+    to: {x: 0, y: 0, z: 2}
+
+product:
+  name: RealSense D435
+  url: https://www.intel.co.jp/content/www/jp/ja/products/sku/128255/intel-realsense-depth-camera-d435/specifications.html
+distributor:
+  - name: switch-science
+    url: https://www.switch-science.com/products/3633
+    price: 73370

@@ -1,0 +1,21 @@
+version: 0.0
+category: electric
+name: STS3215
+
+common:
+  description: serial servo motor
+
+rigit_body:
+  mesh:
+    path: meshes/STS3215.stl
+  view:
+    from: {x: 250, y: 50, z: 150}
+    to: {x: 0, y: 0, z: 2}
+
+product:
+  name: STS3215
+  url: https://www.intel.co.jp/content/www/jp/ja/products/details/nuc.html
+distributor:
+  - name: akizuki
+    url: https://akizukidenshi.com/catalog/g/g116312/
+    price: 2980
