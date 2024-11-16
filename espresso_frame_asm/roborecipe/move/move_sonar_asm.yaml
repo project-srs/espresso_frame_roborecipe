@@ -37,5 +37,5 @@ procedure_list:
       - {from: {x: -200, y: 100, z: 100}, to: {x: -20, y: 0, z: 0}, angle: 30}
     component_list:
       - {pkg: pixhawk_related_parts, type: us42v2, origin: {x: -8, y: 0, z: 15, roll: 0, pitch: 90, yaw: 0}, move: {x: -15, y: 0, z: 0}}
-      - {pkg: m3_screw, type: pan_8_p2, origin: {x: -8, y: 13, z: 15, roll: 0, pitch: -90, yaw: 0}, move: {x: -30, y: 0, z: 0}}
-      - {pkg: m3_screw, type: pan_8_p2, origin: {x: -8, y: -13, z: 15, roll: 0, pitch: -90, yaw: 0}, move: {x: -30, y: 0, z: 0}}
+      - {pkg: m3_screw, type: pan_6_p2, origin: {x: -8, y: 13, z: 15, roll: 0, pitch: -90, yaw: 0}, move: {x: -30, y: 0, z: 0}}
+      - {pkg: m3_screw, type: pan_6_p2, origin: {x: -8, y: -13, z: 15, roll: 0, pitch: -90, yaw: 0}, move: {x: -30, y: 0, z: 0}}

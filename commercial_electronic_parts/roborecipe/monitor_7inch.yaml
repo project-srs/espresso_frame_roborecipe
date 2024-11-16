@@ -1,0 +1,21 @@
+version: 0.0
+category: electric
+name: monitor_7inch
+
+common:
+  description: 7inch hdmi monitor
+
+rigit_body:
+  mesh:
+    path: meshes/monitor_7inch.stl
+  view:
+    from: {x: 250, y: 50, z: 150}
+    to: {x: 0, y: 0, z: 2}
+
+product:
+  name: 7inch_monitor
+  url: xxxxxx
+distributor:
+  - name: amazon
+    url: xxxxxx
+    price: 7000

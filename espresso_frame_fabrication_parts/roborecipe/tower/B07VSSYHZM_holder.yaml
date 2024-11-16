@@ -1,0 +1,19 @@
+version: 0.0
+category: 3d_print
+name: B07VSSYHZM_holder
+
+common:
+  description: B07VSSYHZM holder
+
+rigit_body:
+  mesh:
+    path: meshes/tower/B07VSSYHZM_holder.stl
+  view:
+    from: {x: 400, y: 200, z: 400}
+    to: {x: 0, y: 0, z: 2}
+
+process:
+  data:
+    path: resources/tower/B07VSSYHZM_holder.stl
+  material: abs
+  cost: 500

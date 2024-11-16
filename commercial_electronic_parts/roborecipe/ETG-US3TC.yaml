@@ -1,0 +1,21 @@
+version: 0.0
+category: electric
+name: ETG-US3TC
+
+common:
+  description: Type-C USB ether converter 
+
+rigit_body:
+  mesh:
+    path: meshes/ETG-US3TC.stl
+  view:
+    from: {x: 250, y: 50, z: 150}
+    to: {x: 0, y: 0, z: 2}
+
+product:
+  name: ETG-US3TC
+  url: https://www.iodata.jp/product/lan/lanadapter/etg-us3tc/
+distributor:
+  - name: amazon
+    url: https://www.amazon.co.jp/dp/B07RW4P61B
+    price: 3089

@@ -62,11 +62,21 @@ procedure_list:
       - {from: {x: 700, y: 300, z: 400}, to: {x: 0, y: 0, z: 20}, angle: 30}
       - {from: {x: 700, y: 300, z: -400}, to: {x: 0, y: 0, z: 20}, angle: 30}
     component_list:
-      - {pkg: pixhawk_related_parts, type: xbee_adapter, origin: {x: 32, y: -106.5, z: 11.5, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 15}}
+      - {pkg: pixhawk_related_parts, type: XBeeExplorerRegulated, origin: {x: 29.5, y: -106.5, z: 11.5, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 15}}
       - {pkg: m3_screw, type: pan_6_p2, origin: {x: 32, y: -95, z: 11.5, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 30}}
       - {pkg: m3_screw, type: pan_6_p2, origin: {x: 32, y: -118, z: 11.5, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 30}}
       - {pkg: m3_screw, type: pan_6_p2, origin: {x: 60, y: -95, z: 11.5, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 30}}
       - {pkg: m3_screw, type: pan_6_p2, origin: {x: 60, y: -118, z: 11.5, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 30}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: 700, y: 300, z: 400}, to: {x: 0, y: 0, z: 20}, angle: 30}
+      - {from: {x: 700, y: 300, z: -400}, to: {x: 0, y: 0, z: 20}, angle: 30}
+    component_list:
+      - {pkg: pixhawk_related_parts, type: R3006SB, origin: {x: 55, y: 106.5, z: 4, roll: 0, pitch: 0, yaw: 180}, move: {x: 0, y: 0, z: 10}}
+      - {pkg: espresso_frame_fabrication_parts, type: R3006SB_mount, origin: {x: 55, y: 106.5, z: 4, roll: 0, pitch: 0, yaw: 180}, move: {x: 0, y: 0, z: 30}}
+      - {pkg: m3_screw, type: tapping_10, origin: {x: 50, y: 91, z: 0, roll: 180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -20}}
+      - {pkg: m3_screw, type: tapping_10, origin: {x: 50, y: 122, z: 0, roll: 180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -20}}
 
   - type: attach
     view_list: 
@@ -134,17 +144,17 @@ procedure_list:
       - {from: {x: 700, y: 300, z: 400}, to: {x: 0, y: 0, z: 20}, angle: 30}
       - {from: {x: 700, y: 300, z: -400}, to: {x: 0, y: 0, z: 20}, angle: 30}
     component_list:
-      - {pkg: espresso_frame_fabrication_parts, type: move_psd_base, origin: {x: -30, y: -51, z: 4, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 10}}
-      - {pkg: m3_screw, type: tapping_10, origin: {x: -30, y: -30, z: 0, roll: 180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -20}}
-      - {pkg: m3_screw, type: tapping_10, origin: {x: -30, y: -72, z: 0, roll: 180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -20}}
+      - {pkg: espresso_frame_fabrication_parts, type: move_psd_base, origin: {x: -62, y: 90.5, z: 4, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 10}}
+      - {pkg: m3_screw, type: tapping_10, origin: {x: -62, y: 72, z: 0, roll: 180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -20}}
+      - {pkg: m3_screw, type: tapping_10, origin: {x: -62, y: 109, z: 0, roll: 180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -20}}
 
   - type: attach
     view_list: 
       - {from: {x: 700, y: 300, z: 400}, to: {x: 0, y: 0, z: 20}, angle: 30}
     component_list:
-      - {pkg: sensor_parts, type: gp2y0a21yk0f, origin: {x: -30, y: -51, z: 49, roll: 0, pitch: 180, yaw: 0}, move: {x: 0, y: 0, z: 10}}
-      - {pkg: m3_screw, type: tapping_8, origin: {x: -30, y: -30, z: 52, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 25}}
-      - {pkg: m3_screw, type: tapping_8, origin: {x: -30, y: -72, z: 52, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 25}}
+      - {pkg: sensor_parts, type: gp2y0a21yk0f, origin: {x: -62, y: 90.5, z: 49, roll: 0, pitch: 180, yaw: 0}, move: {x: 0, y: 0, z: 10}}
+      - {pkg: m3_screw, type: tapping_8, origin: {x: -62, y: 72, z: 52, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 25}}
+      - {pkg: m3_screw, type: tapping_8, origin: {x: -62, y: 109, z: 52, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 25}}
 
   - type: attach
     view_list: 
@@ -297,5 +307,12 @@ procedure_list:
   - type: attach
     view_list:
       - {from: {x: 300, y: 150, z: 200}, to: {x: 140, y: 0, z: 20}, angle: 30}
+      - {from: {x: 300, y: 150, z: -200}, to: {x: 140, y: 0, z: 20}, angle: 30}
     component_list:
       - {pkg: sensor_parts, type: LD19, origin: {x: 140, y: 0, z: 4, roll: 0, pitch: 0, yaw: 180}, move: {x: 0, y: 0, z: 10}}
+      - {pkg: m2_5_screw, type: pan_10, origin: {x: 140, y: -23.4, z: 0, roll: 180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -20}}
+      - {pkg: m2_5_screw, type: pan_10, origin: {x: 116.6, y: 8.5, z: 0, roll: 180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -20}}
+      - {pkg: m2_5_screw, type: pan_10, origin: {x: 163.4, y: 8.5, z: 0, roll: 180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -20}}
+      - {pkg: m2_5_screw, type: nut_2, origin: {x: 140, y: -23.4, z: 6, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 20}}
+      - {pkg: m2_5_screw, type: nut_2, origin: {x: 116.6, y: 8.5, z: 6, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 20}}
+      - {pkg: m2_5_screw, type: nut_2, origin: {x: 163.4, y: 8.5, z: 6, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 20}}

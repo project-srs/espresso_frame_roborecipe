@@ -1,0 +1,21 @@
+version: 0.0
+category: electric
+name: B07VSSYHZM
+
+common:
+  description: USB hub
+
+rigit_body:
+  mesh:
+    path: meshes/B07VSSYHZM.stl
+  view:
+    from: {x: 250, y: 50, z: 150}
+    to: {x: 0, y: 0, z: 2}
+
+product:
+  name: B07VSSYHZM
+  url: https://www.amazon.co.jp/gp/product/B07VSSYHZM
+distributor:
+  - name: amazon
+    url: https://www.amazon.co.jp/gp/product/B07VSSYHZM
+    price: 1199

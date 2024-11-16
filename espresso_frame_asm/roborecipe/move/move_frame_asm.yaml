@@ -55,3 +55,19 @@ procedure_list:
       - {pkg: frame_5_series, type: SHNTP5-4, origin: {x: -168, y: -10, z: 10, roll: 90, pitch: 0, yaw: 0}, move: {x: 0, y: 10, z: 0}}
       - {pkg: m4_screw, type: NSET4-12, origin: {x: -168, y: -14.5, z: 10, roll: 90, pitch: 0, yaw: 0}, move: {x: 0, y: -20, z: 0}}
       - {pkg: frame_5_series, type: HFS5-2020-80, origin: {x: -150, y: 0, z: 10, roll: 0, pitch: -90, yaw: 0}, move: {x: 0, y: 40, z: 0}}
+
+  - type: attach
+    view_list:
+      - {from: {x: -800, y: 300, z: 300}, to: {x: 0, y: 0, z: 0}, angle: 30}
+    component_list:
+      - {pkg: frame_5_series, type: SHNTP5-4, origin: {x: -90, y: 140, z: 10, roll: -90, pitch: 0, yaw: 0}, move: {x: 0, y: 10, z: 0}}
+      - {pkg: espresso_frame_fabrication_parts, type: move_connect_plate, origin: {x: -90, y: 140, z: 0, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 20, z: 0}}
+      - {pkg: m4_screw, type: NSET4-12, origin: {x: -90, y: 144, z: 10, roll: -90, pitch: 0, yaw: 0}, move: {x: 0, y: 35, z: 0}}
+
+  - type: attach
+    view_list:
+      - {from: {x: -800, y: -300, z: 300}, to: {x: 0, y: 0, z: 0}, angle: 30}
+    component_list:
+      - {pkg: frame_5_series, type: SHNTP5-4, origin: {x: -90, y: -140, z: 10, roll: -90, pitch: 0, yaw: 0}, move: {x: 0, y: -10, z: 0}}
+      - {pkg: espresso_frame_fabrication_parts, type: move_connect_plate, origin: {x: -90, y: -140, z: 0, roll: 0, pitch: 0, yaw: 180}, move: {x: 0, y: -20, z: 0}}
+      - {pkg: m4_screw, type: NSET4-12, origin: {x: -90, y: -144, z: 10, roll: 90, pitch: 0, yaw: 0}, move: {x: 0, y: -35, z: 0}}

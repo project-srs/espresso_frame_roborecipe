@@ -1,0 +1,21 @@
+version: 0.0
+category: electric
+name: FE-URT-1
+
+common:
+  description: serial servo motor interface
+
+rigit_body:
+  mesh:
+    path: meshes/FE-URT-1.stl
+  view:
+    from: {x: 250, y: 50, z: 150}
+    to: {x: 0, y: 0, z: 2}
+
+product:
+  name: FE-URT-1
+  url: https://www.feetechrc.com/FE-URT1-C001.html
+distributor:
+  - name: akizuki
+    url: https://akizukidenshi.com/catalog/g/g116295/
+    price: 1420

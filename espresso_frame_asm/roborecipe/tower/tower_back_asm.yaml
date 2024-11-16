@@ -9,7 +9,69 @@ common:
 procedure_list:
   - type: attach
     view_list: 
-      - {from: {x: 800, y: 300, z: 100}, to: {x: 0, y: 0, z: -200}, angle: 30}
+      - {from: {x: 400, y: 300, z: 150}, to: {x: 0, y: 0, z: -100}, angle: 30}
     component_list:
       - {pkg: espresso_frame_fabrication_parts, type: tower_back_plate, origin: {x: 0, y: 0, z: 0, roll: 0, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: 0}}
 
+  - type: attach
+    view_list: 
+      - {from: {x: 400, y: 300, z: 150}, to: {x: 0, y: 0, z: -100}, angle: 30}
+      - {from: {x: -400, y: 300, z: 150}, to: {x: 0, y: 0, z: -100}, angle: 30}
+    component_list:
+      - {pkg: commercial_electronic_parts, type: B07VSSYHZM, origin: {x: 4, y: 0, z: -201, roll: 90, pitch: 0, yaw: 90}, move: {x: 10, y: 0, z: 0}}
+      - {pkg: espresso_frame_fabrication_parts, type: B07VSSYHZM_holder, origin: {x: 20, y: 64, z: -201, roll: 0, pitch: 90, yaw: 180}, move: {x: 30, y: 0, z: 0}}
+      - {pkg: espresso_frame_fabrication_parts, type: B07VSSYHZM_holder, origin: {x: 20, y: -64, z: -201, roll: 0, pitch: -90, yaw: 0}, move: {x: 30, y: 0, z: 0}}
+      - {pkg: m3_screw, type: tapping_10, origin: {x: 0, y: 58, z: -187, roll: 0, pitch: -90, yaw: 0}, move: {x: -15, y: 0, z: 0}}
+      - {pkg: m3_screw, type: tapping_10, origin: {x: 0, y: -58, z: -187, roll: 0, pitch: -90, yaw: 0}, move: {x: -15, y: 0, z: 0}}
+      - {pkg: m3_screw, type: tapping_10, origin: {x: 0, y: 58, z: -215, roll: 0, pitch: -90, yaw: 0}, move: {x: -15, y: 0, z: 0}}
+      - {pkg: m3_screw, type: tapping_10, origin: {x: 0, y: -58, z: -215, roll: 0, pitch: -90, yaw: 0}, move: {x: -15, y: 0, z: 0}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: 400, y: 300, z: 150}, to: {x: 0, y: 0, z: -100}, angle: 30}
+      - {from: {x: -400, y: 300, z: 150}, to: {x: 0, y: 0, z: -100}, angle: 30}
+    component_list:
+      - {pkg: m3_standoff, type: hex_f_f_6, origin: {x: 4, y: 20, z: -160, roll: 0, pitch: 90, yaw: 0}, move: {x: 10, y: 0, z: 0}}
+      - {pkg: m3_standoff, type: hex_f_f_6, origin: {x: 4, y: 62, z: -160, roll: 0, pitch: 90, yaw: 0}, move: {x: 10, y: 0, z: 0}}
+      - {pkg: m3_screw, type: pan_8_p2, origin: {x: 0, y: 20, z: -160, roll: 0, pitch: -90, yaw: 0}, move: {x: -15, y: 0, z: 0}}
+      - {pkg: m3_screw, type: pan_8_p2, origin: {x: 0, y: 62, z: -160, roll: 0, pitch: -90, yaw: 0}, move: {x: -15, y: 0, z: 0}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: 400, y: 300, z: 150}, to: {x: 0, y: 0, z: -100}, angle: 30}
+      - {from: {x: -400, y: 300, z: 150}, to: {x: 0, y: 0, z: -100}, angle: 30}
+    component_list:
+      - {pkg: commercial_electronic_parts, type: DCDC_12V, origin: {x: 10, y: 41, z: -160, roll: 90, pitch: 0, yaw: 90}, move: {x: 10, y: 0, z: 0}}
+      - {pkg: m3_screw, type: pan_8_p2, origin: {x: 12, y: 20, z: -160, roll: 0, pitch: 90, yaw: 0}, move: {x: 25, y: 0, z: 0}}
+      - {pkg: m3_screw, type: pan_8_p2, origin: {x: 12, y: 62, z: -160, roll: 0, pitch: 90, yaw: 0}, move: {x: 25, y: 0, z: 0}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: 400, y: 300, z: 150}, to: {x: 0, y: 0, z: -100}, angle: 30}
+      - {from: {x: -400, y: 300, z: 150}, to: {x: 0, y: 0, z: -100}, angle: 30}
+    component_list:
+      - {pkg: espresso_frame_fabrication_parts, type: PDB01_mount, origin: {x: 31, y: -27.5, z: -182, roll: 90, pitch: 0, yaw: 90}, move: {x: 10, y: 0, z: 0}}
+      - {pkg: m3_screw, type: tapping_10, origin: {x: 0, y: -5, z: -160, roll: 0, pitch: -90, yaw: 0}, move: {x: -15, y: 0, z: 0}}
+      - {pkg: m3_screw, type: tapping_10, origin: {x: 0, y: -50, z: -160, roll: 0, pitch: -90, yaw: 0}, move: {x: -15, y: 0, z: 0}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: 400, y: 300, z: 150}, to: {x: 0, y: 0, z: -100}, angle: 30}
+      - {from: {x: -400, y: 300, z: 150}, to: {x: 0, y: 0, z: -100}, angle: 30}
+    component_list:
+      - {pkg: pixhawk_related_parts, type: PDB01, origin: {x: 31, y: -27.5, z: -182, roll: 0, pitch: 90, yaw: 0}, move: {x: 10, y: 0, z: 0}}
+      - {pkg: m3_screw, type: tapping_8, origin: {x: 33, y: -50, z: -204.5, roll: 0, pitch: 90, yaw: 0}, move: {x: 20, y: 0, z: 0}}
+      - {pkg: m3_screw, type: tapping_8, origin: {x: 33, y: -5, z: -204.5, roll: 0, pitch: 90, yaw: 0}, move: {x: 20, y: 0, z: 0}}
+      - {pkg: m3_screw, type: tapping_8, origin: {x: 33, y: -50, z: -159.5, roll: 0, pitch: 90, yaw: 0}, move: {x: 20, y: 0, z: 0}}
+      - {pkg: m3_screw, type: tapping_8, origin: {x: 33, y: -5, z: -159.5, roll: 0, pitch: 90, yaw: 0}, move: {x: 20, y: 0, z: 0}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: 400, y: 300, z: 150}, to: {x: 0, y: 0, z: -100}, angle: 30}
+      - {from: {x: -400, y: 300, z: 150}, to: {x: 0, y: 0, z: -100}, angle: 30}
+    component_list:
+      - {pkg: commercial_electronic_parts, type: monitor_7inch, origin: {x: 4, y: 0, z: -84.5, roll: 0, pitch: 0, yaw: 0}, move: {x: 10, y: 0, z: 0}}
+      - {pkg: m4_screw, type: pan_15, origin: {x: 0, y: 24.5, z: -47, roll: 0, pitch: -90, yaw: 0}, move: {x: -20, y: 0, z: 0}}
+      - {pkg: m4_screw, type: pan_15, origin: {x: 0, y: -24.5, z: -47, roll: 0, pitch: -90, yaw: 0}, move: {x: -20, y: 0, z: 0}}
+      - {pkg: m4_screw, type: pan_15, origin: {x: 0, y: 24.5, z: -122, roll: 0, pitch: -90, yaw: 0}, move: {x: -20, y: 0, z: 0}}
+      - {pkg: m4_screw, type: pan_15, origin: {x: 0, y: -24.5, z: -122, roll: 0, pitch: -90, yaw: 0}, move: {x: -20, y: 0, z: 0}}

@@ -130,4 +130,8 @@ procedure_list:
       - {from: {x: 500, y: 300, z: 300}, to: {x: 0, y: 0, z: 20}, angle: 30}
       - {from: {x: -500, y: 300, z: 300}, to: {x: 0, y: 0, z: 20}, angle: 30}
     component_list:
-      - {pkg: pixhawk_related_parts, type: buzzer, origin: {x: 78, y: -63, z: 30, roll: 90, pitch: 0, yaw: -90}, move: {x: -30, y: 0, z: 0}}
+      - {pkg: pixhawk_related_parts, type: buzzer, origin: {x: 78, y: -63, z: 30, roll: 90, pitch: 0, yaw: -90}, move: {x: -10, y: 0, z: 0}}
+      - {pkg: m2_screw, type: pan_8, origin: {x: 82, y: -80, z: 30, roll: 0, pitch: 90, yaw: 0}, move: {x: 15, y: 0, z: 0}}
+      - {pkg: m2_screw, type: pan_8, origin: {x: 82, y: -46, z: 30, roll: 0, pitch: 90, yaw: 0}, move: {x: 15, y: 0, z: 0}}
+      - {pkg: m2_screw, type: nut_2, origin: {x: 76, y: -46, z: 30, roll: 0, pitch: -90, yaw: 0}, move: {x: -20, y: 0, z: 0}}
+      - {pkg: m2_screw, type: nut_2, origin: {x: 76, y: -80, z: 30, roll: 0, pitch: -90, yaw: 0}, move: {x: -20, y: 0, z: 0}}

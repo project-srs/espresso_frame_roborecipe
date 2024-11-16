@@ -1,0 +1,18 @@
+version: 0.0
+category: 3d_print
+name: R3006SB_mount
+
+common:
+  description: R3006SB mount
+rigit_body:
+  mesh:
+    path: meshes/move/R3006SB_mount.stl
+  view:
+    from: {x: 250, y: 50, z: 150}
+    to: {x: 0, y: 0, z: 2}
+
+process:
+  data:
+    path: resources/move/R3006SB_mount.dxf
+  material: abs
+  cost: 500

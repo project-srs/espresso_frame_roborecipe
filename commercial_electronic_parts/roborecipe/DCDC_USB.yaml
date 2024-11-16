@@ -1,0 +1,21 @@
+version: 0.0
+category: electric
+name: DCDC_USB
+
+common:
+  description: DCDC to usb 5V
+
+rigit_body:
+  mesh:
+    path: meshes/DCDC_USB.stl
+  view:
+    from: {x: 250, y: 50, z: 150}
+    to: {x: 0, y: 0, z: 2}
+
+product:
+  name: DCDC_USB
+  url: xxxxxx
+distributor:
+  - name: amazon
+    url: xxxxxx
+    price: 1000

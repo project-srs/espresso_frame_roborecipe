@@ -1,0 +1,21 @@
+version: 0.0
+category: electric
+name: DCDC_12V
+
+common:
+  description: DCDC 12V
+
+rigit_body:
+  mesh:
+    path: meshes/DCDC_12V.stl
+  view:
+    from: {x: 250, y: 50, z: 150}
+    to: {x: 0, y: 0, z: 2}
+
+product:
+  name: DCDC_12V
+  url: xxxxxx
+distributor:
+  - name: amazon
+    url: xxxxxx
+    price: 1000

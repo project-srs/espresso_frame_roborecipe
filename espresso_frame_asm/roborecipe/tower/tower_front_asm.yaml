@@ -23,6 +23,8 @@ procedure_list:
       - {pkg: m3_screw, type: ck-100, origin: {x: 92, y: -55, z: 4, roll: 0, pitch: 0, yaw: -90}, move: {x: 0, y: 0, z: 20}}
       - {pkg: m3_screw, type: pan_8_p2, origin: {x: 92, y: 55, z: 0, roll: -180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -15}}
       - {pkg: m3_screw, type: pan_8_p2, origin: {x: 92, y: -55, z: 0, roll: -180, pitch: 0, yaw: 0}, move: {x: 0, y: 0, z: -15}}
+      - {pkg: m3_screw, type: pan_8_p2, origin: {x: 92, y: 64, z: 17.5, roll: -90, pitch: 0, yaw: 0}, move: {x: 0, y: 15, z: 0}}
+      - {pkg: m3_screw, type: pan_8_p2, origin: {x: 92, y: -64, z: 17.5, roll: 90, pitch: 0, yaw: 0}, move: {x: 0, y: -15, z: 0}}
 
   - type: attach
     view_list: 
@@ -40,6 +42,63 @@ procedure_list:
 
   - type: attach
     view_list: 
+      - {from: {x: 400, y: 150, z: 200}, to: {x: 0, y: 0, z: 50}, angle: 30}
+      - {from: {x: 400, y: -150, z: 200}, to: {x: 0, y: 0, z: 50}, angle: 30}
+    component_list:
+      - {pkg: m3_standoff, type: hex_f_f_6, origin: {x: 15, y: -60, z: 25, roll: -90, pitch: 0, yaw: 0}, move: {x: 0, y: 10, z: 0}}
+      - {pkg: m3_standoff, type: hex_f_f_6, origin: {x: 15, y: -60, z: 54, roll: -90, pitch: 0, yaw: 0}, move: {x: 0, y: 10, z: 0}}
+      - {pkg: m3_standoff, type: hex_f_f_6, origin: {x: 64, y: -60, z: 25, roll: -90, pitch: 0, yaw: 0}, move: {x: 0, y: 10, z: 0}}
+      - {pkg: m3_standoff, type: hex_f_f_6, origin: {x: 64, y: -60, z: 54, roll: -90, pitch: 0, yaw: 0}, move: {x: 0, y: 10, z: 0}}
+      - {pkg: m3_screw, type: pan_8_p2, origin: {x: 15, y: -64, z: 25, roll: 90, pitch: 0, yaw: 0}, move: {x: 0, y: -15, z: 0}}
+      - {pkg: m3_screw, type: pan_8_p2, origin: {x: 15, y: -64, z: 54, roll: 90, pitch: 0, yaw: 0}, move: {x: 0, y: -15, z: 0}}
+      - {pkg: m3_screw, type: pan_8_p2, origin: {x: 64, y: -64, z: 25, roll: 90, pitch: 0, yaw: 0}, move: {x: 0, y: -15, z: 0}}
+      - {pkg: m3_screw, type: pan_8_p2, origin: {x: 64, y: -64, z: 54, roll: 90, pitch: 0, yaw: 0}, move: {x: 0, y: -15, z: 0}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: 400, y: 150, z: 200}, to: {x: 0, y: 0, z: 50}, angle: 30}
+      - {from: {x: 400, y: -150, z: 200}, to: {x: 0, y: 0, z: 50}, angle: 30}
+    component_list:
+      - {pkg: commercial_electronic_parts, type: FE-URT-1, origin: {x: 39.5, y: -54, z: 39.5, roll: -90, pitch: 0, yaw: 0}, move: {x: 0, y: 10, z: 0}}
+      - {pkg: m3_screw, type: pan_6_p2, origin: {x: 15, y: -52, z: 25, roll: -90, pitch: 0, yaw: 0}, move: {x: 0, y: 25, z: 0}}
+      - {pkg: m3_screw, type: pan_6_p2, origin: {x: 15, y: -52, z: 54, roll: -90, pitch: 0, yaw: 0}, move: {x: 0, y: 25, z: 0}}
+      - {pkg: m3_screw, type: pan_6_p2, origin: {x: 64, y: -52, z: 25, roll: -90, pitch: 0, yaw: 0}, move: {x: 0, y: 25, z: 0}}
+      - {pkg: m3_screw, type: pan_6_p2, origin: {x: 64, y: -52, z: 54, roll: -90, pitch: 0, yaw: 0}, move: {x: 0, y: 25, z: 0}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: 400, y: 150, z: 200}, to: {x: 0, y: 0, z: 50}, angle: 30}
+      - {from: {x: 400, y: -150, z: 200}, to: {x: 0, y: 0, z: 50}, angle: 30}
+    component_list:
+      - {pkg: m3_standoff, type: hex_f_f_6, origin: {x: 35, y: -60, z: 70, roll: -90, pitch: 0, yaw: 0}, move: {x: 0, y: 10, z: 0}}
+      - {pkg: m3_standoff, type: hex_f_f_6, origin: {x: 35, y: -60, z: 112, roll: -90, pitch: 0, yaw: 0}, move: {x: 0, y: 10, z: 0}}
+      - {pkg: m3_screw, type: pan_8_p2, origin: {x: 35, y: -64, z: 70, roll: 90, pitch: 0, yaw: 0}, move: {x: 0, y: -15, z: 0}}
+      - {pkg: m3_screw, type: pan_8_p2, origin: {x: 35, y: -64, z: 112, roll: 90, pitch: 0, yaw: 0}, move: {x: 0, y: -15, z: 0}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: 400, y: 150, z: 200}, to: {x: 0, y: 0, z: 50}, angle: 30}
+      - {from: {x: 400, y: -150, z: 200}, to: {x: 0, y: 0, z: 50}, angle: 30}
+    component_list:
+      - {pkg: commercial_electronic_parts, type: DCDC_12V, origin: {x: 35, y: -54, z: 91, roll: 0, pitch: 90, yaw: 90}, move: {x: 0, y: 10, z: 0}}
+      - {pkg: m3_screw, type: pan_6_p2, origin: {x: 35, y: -52, z: 70, roll: -90, pitch: 0, yaw: 0}, move: {x: 0, y: 25, z: 0}}
+      - {pkg: m3_screw, type: pan_6_p2, origin: {x: 35, y: -52, z: 112, roll: -90, pitch: 0, yaw: 0}, move: {x: 0, y: 25, z: 0}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: 400, y: 150, z: 200}, to: {x: 0, y: 0, z: 50}, angle: 30}
+      - {from: {x: 400, y: -150, z: 200}, to: {x: 0, y: 0, z: 50}, angle: 30}
+    component_list:
+      - {pkg: commercial_electronic_parts, type: ETG-US3TC, origin: {x: 44, y: 60, z: 69, roll: 0, pitch: -90, yaw: 90}, move: {x: 0, y: -10, z: 0}}
+      - {pkg: espresso_frame_fabrication_parts, type: ETG-US3TC_holder, origin: {x: 44, y: 41, z: 35, roll: 0, pitch: 90, yaw: 90}, move: {x: 0, y: -30, z: 0}}
+      - {pkg: espresso_frame_fabrication_parts, type: ETG-US3TC_holder, origin: {x: 44, y: 41, z: 103, roll: 0, pitch: -90, yaw: -90}, move: {x: 0, y: -30, z: 0}}
+      - {pkg: m3_screw, type: tapping_8, origin: {x: 32, y: 64, z: 35, roll: -90, pitch: 0, yaw: 0}, move: {x: 0, y: 15, z: 0}}
+      - {pkg: m3_screw, type: tapping_8, origin: {x: 56, y: 64, z: 35, roll: -90, pitch: 0, yaw: 0}, move: {x: 0, y: 15, z: 0}}
+      - {pkg: m3_screw, type: tapping_8, origin: {x: 32, y: 64, z: 103, roll: -90, pitch: 0, yaw: 0}, move: {x: 0, y: 15, z: 0}}
+      - {pkg: m3_screw, type: tapping_8, origin: {x: 56, y: 64, z: 103, roll: -90, pitch: 0, yaw: 0}, move: {x: 0, y: 15, z: 0}}
+
+  - type: attach
+    view_list: 
       - {from: {x: 800, y: 300, z: 400}, to: {x: 0, y: 0, z: 100}, angle: 30}
       - {from: {x: -800, y: 300, z: 400}, to: {x: 0, y: 0, z: 100}, angle: 30}
     component_list:
@@ -48,6 +107,37 @@ procedure_list:
       - {pkg: m3_screw, type: pan_8_p2, origin: {x: 0, y: -55, z: 158, roll: 0, pitch: -90, yaw: 0}, move: {x: -35, y: 0, z: 0}}
       - {pkg: m3_screw, type: pan_8_p2, origin: {x: 0, y: 55, z: 42, roll: 0, pitch: -90, yaw: 0}, move: {x: -35, y: 0, z: 0}}
       - {pkg: m3_screw, type: pan_8_p2, origin: {x: 0, y: 55, z: 158, roll: 0, pitch: -90, yaw: 0}, move: {x: -35, y: 0, z: 0}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: 400, y: -150, z: 200}, to: {x: 0, y: 0, z: 80}, angle: 30}
+      - {from: {x: -400, y: -150, z: 200}, to: {x: 0, y: 0, z: 80}, angle: 30}
+    component_list:
+      - {pkg: commercial_electronic_parts, type: EDC-GUA3H2-B, origin: {x: 4, y: 26, z: 105, roll: 0, pitch: 90, yaw: 0}, move: {x: 10, y: 0, z: 0}}
+      - {pkg: espresso_frame_fabrication_parts, type: EDC-GUA3H2-B_holder, origin: {x: 4, y: 26, z: 50, roll: 0, pitch: 90, yaw: 0}, move: {x: 30, y: 0, z: 0}}
+      - {pkg: espresso_frame_fabrication_parts, type: EDC-GUA3H2-B_holder, origin: {x: 4, y: 26, z: 161, roll: 0, pitch: -90, yaw: 180}, move: {x: 30, y: 0, z: 0}}
+      - {pkg: m3_screw, type: pan_8_p2, origin: {x: 0, y: 10, z: 55, roll: 0, pitch: -90, yaw: 0}, move: {x: -15, y: 0, z: 0}}
+      - {pkg: m3_screw, type: pan_8_p2, origin: {x: 0, y: 42, z: 55, roll: 0, pitch: -90, yaw: 0}, move: {x: -15, y: 0, z: 0}}
+      - {pkg: m3_screw, type: pan_8_p2, origin: {x: 0, y: 10, z: 156, roll: 0, pitch: -90, yaw: 0}, move: {x: -15, y: 0, z: 0}}
+      - {pkg: m3_screw, type: pan_8_p2, origin: {x: 0, y: 42, z: 156, roll: 0, pitch: -90, yaw: 0}, move: {x: -15, y: 0, z: 0}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: 400, y: 150, z: 300}, to: {x: 0, y: 0, z: 170}, angle: 30}
+      - {from: {x: -400, y: 150, z: 300}, to: {x: 0, y: 0, z: 170}, angle: 30}
+    component_list:
+      - {pkg: m3_standoff, type: hex_f_f_6, origin: {x: 4, y: 2, z: 170, roll: 0, pitch: 90, yaw: 0}, move: {x: 10, y: 0, z: 0}}
+      - {pkg: m3_standoff, type: hex_f_f_6, origin: {x: 4, y: -50, z: 170, roll: 0, pitch: 90, yaw: 0}, move: {x: 10, y: 0, z: 0}}
+      - {pkg: m3_screw, type: pan_8_p2, origin: {x: 0, y: 2, z: 170, roll: 0, pitch: -90, yaw: 0}, move: {x: -15, y: 0, z: 0}}
+      - {pkg: m3_screw, type: pan_8_p2, origin: {x: 0, y: -50, z: 170, roll: 0, pitch: -90, yaw: 0}, move: {x: -15, y: 0, z: 0}}
+
+  - type: attach
+    view_list: 
+      - {from: {x: 400, y: 150, z: 300}, to: {x: 0, y: 0, z: 170}, angle: 30}
+    component_list:
+      - {pkg: commercial_electronic_parts, type: DCDC_USB, origin: {x: 10, y: -24, z: 170, roll: 90, pitch: 0, yaw: 90}, move: {x: 10, y: 0, z: 0}}
+      - {pkg: m3_screw, type: pan_6_p2, origin: {x: 12, y: 2, z: 170, roll: 0, pitch: 90, yaw: 0}, move: {x: 25, y: 0, z: 0}}
+      - {pkg: m3_screw, type: pan_6_p2, origin: {x: 12, y: -50, z: 170, roll: 0, pitch: 90, yaw: 0}, move: {x: 25, y: 0, z: 0}}
 
   - type: attach
     view_list: 

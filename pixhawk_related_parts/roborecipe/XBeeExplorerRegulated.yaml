@@ -1,0 +1,20 @@
+name: XBeeExplorerRegulated
+category: electric
+
+common:
+  description: FT232RL usb-serial converter
+
+rigit_body:
+  mesh:
+    path: meshes/XBeeExplorerRegulated.stl
+  view:
+    from: {x: 100, y: 150, z: 100}
+    to: {x: 0, y: 0, z: -2}
+
+product:
+  name: sparkfun
+  url: sparkfun.com/products/11373
+distributor:
+  - name: switch-science
+    url: https://www.switch-science.com/products/1166
+    price: 2198

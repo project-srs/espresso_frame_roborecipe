@@ -1,0 +1,19 @@
+version: 0.0
+category: 3d_print
+name: PDB01_mount
+
+common:
+  description: PDB01 mount
+
+rigit_body:
+  mesh:
+    path: meshes/tower/PDB01_mount.stl
+  view:
+    from: {x: 400, y: 200, z: 400}
+    to: {x: 0, y: 0, z: 2}
+
+process:
+  data:
+    path: resources/tower/PDB01_mount.stl
+  material: abs
+  cost: 500

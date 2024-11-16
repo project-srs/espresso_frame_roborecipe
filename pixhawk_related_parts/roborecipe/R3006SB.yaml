@@ -1,0 +1,20 @@
+name: R3006SB
+category: electric
+
+common:
+  description: Futaba RC receiver
+
+rigit_body:
+  mesh:
+    path: meshes/R3006SB.stl
+  view:
+    from: {x: 100, y: 150, z: 100}
+    to: {x: 0, y: 0, z: -2}
+
+product:
+  name: futaba
+  url: https://www.rc.futaba.co.jp/products/detail/I00000016
+distributor:
+  - name: amazon
+    url: https://www.amazon.co.jp/dp/B01B3U0000
+    price: 7280

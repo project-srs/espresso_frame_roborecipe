@@ -1,0 +1,19 @@
+version: 0.0
+category: laser_cut
+name: move_connect_plate
+
+common:
+  description: move & tower module connect plate
+
+rigit_body:
+  mesh:
+    path: meshes/move/move_connect_plate.stl
+  view:
+    from: {x: 250, y: 50, z: 150}
+    to: {x: 0, y: 0, z: 2}
+
+process:
+  data:
+    path: resources/move/move_connect_plate.dxf
+  material: mdf_4mm
+  cost: 100
